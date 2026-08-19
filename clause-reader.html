@@ -1,0 +1,678 @@
+<title>Clause Reader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<style>
+  :root{
+    --ground:#E6E8ED;
+    --surface:#FCFCFD;
+    --surface-2:#F1F2F6;
+    --ink:#161A22;
+    --muted:#5D6678;
+    --line:#CFD3DC;
+    --accent:#A8480A;
+    --accent-ink:#FFFFFF;
+    --wash:rgba(200,120,30,.16);
+    --wash-rule:#C9761E;
+    --shadow:0 1px 2px rgba(20,25,35,.06), 0 8px 24px rgba(20,25,35,.08);
+    --radius:10px;
+    --bar-h:132px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#12141A;
+      --surface:#1B1E26;
+      --surface-2:#23262F;
+      --ink:#E7EAF1;
+      --muted:#98A1B4;
+      --line:#333846;
+      --accent:#F0943F;
+      --accent-ink:#1B1206;
+      --wash:rgba(240,148,63,.15);
+      --wash-rule:#F0943F;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#12141A;
+    --surface:#1B1E26;
+    --surface-2:#23262F;
+    --ink:#E7EAF1;
+    --muted:#98A1B4;
+    --line:#333846;
+    --accent:#F0943F;
+    --accent-ink:#1B1206;
+    --wash:rgba(240,148,63,.15);
+    --wash-rule:#F0943F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px calc(var(--bar-h) + 24px)}
+
+  /* ---------- header ---------- */
+  .top{
+    position:sticky;top:0;z-index:20;
+    background:var(--ground);
+    border-bottom:1px solid var(--line);
+    padding:14px 0 10px;
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  }
+  .mark{
+    width:26px;height:26px;flex:none;border-radius:5px;
+    background:var(--accent);
+    display:grid;place-items:center;
+  }
+  .mark span{display:block;width:12px;height:12px;border-radius:2px;background:var(--accent-ink)}
+  h1{
+    font-family:Newsreader,Georgia,"Times New Roman",serif;
+    font-weight:600;font-size:21px;line-height:1.1;margin:0;letter-spacing:-.01em;
+    text-wrap:balance;
+  }
+  .chip{
+    margin-left:auto;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    padding:5px 9px;border-radius:999px;
+    border:1px solid var(--line);color:var(--muted);background:var(--surface);
+    white-space:nowrap;
+  }
+  .chip[data-state="reading"]{border-color:var(--wash-rule);color:var(--accent);background:var(--wash)}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    font:inherit;font-weight:500;
+    border:1px solid var(--line);background:var(--surface);color:var(--ink);
+    border-radius:var(--radius);padding:11px 16px;cursor:pointer;
+    min-height:44px;
+    transition:background .15s ease,border-color .15s ease,transform .1s ease;
+  }
+  .btn:hover{background:var(--surface-2)}
+  .btn:active{transform:translateY(1px)}
+  .btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .btn-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+  .btn-primary:hover{background:var(--accent);filter:brightness(1.06)}
+  .btn-quiet{background:transparent;border-color:transparent;color:var(--muted);padding:8px 10px}
+  .btn-quiet:hover{background:var(--surface-2);color:var(--ink)}
+
+  /* ---------- paste view ---------- */
+  .panel{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:16px;margin-top:18px;
+    display:flex;flex-direction:column;gap:14px;
+  }
+  .lede{margin:0;color:var(--muted);font-size:15px;max-width:60ch}
+  textarea{
+    width:100%;min-height:230px;resize:vertical;
+    font-family:Newsreader,Georgia,serif;font-size:17px;line-height:1.55;
+    color:var(--ink);background:var(--surface-2);
+    border:1px solid var(--line);border-radius:8px;padding:12px 14px;
+  }
+  textarea:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .hint{color:var(--muted);font-size:13px;margin:0;min-height:1em}
+
+  /* ---------- reader ---------- */
+  .meter{display:flex;align-items:baseline;gap:10px;padding:12px 0 8px;flex-wrap:wrap}
+  .meter b{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;font-weight:500;font-size:12px;
+    font-variant-numeric:tabular-nums;letter-spacing:.04em;color:var(--ink);
+  }
+  .meter span{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .track{height:3px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:14px}
+  .track i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s ease}
+
+  .doc{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:20px 18px;
+    font-family:Newsreader,Georgia,"Times New Roman",serif;
+    font-size:18px;line-height:1.62;
+  }
+  .doc p{margin:0 0 1em}
+  .doc p:last-child{margin-bottom:0}
+  .ln{
+    cursor:pointer;border-radius:3px;
+    padding:1px 0;
+    box-decoration-break:clone;-webkit-box-decoration-break:clone;
+    transition:background .18s ease,color .18s ease;
+  }
+  .ln:hover{background:var(--surface-2)}
+  .ln.done{color:var(--muted)}
+  .ln.now{background:var(--wash);box-shadow:inset 2px 0 0 var(--wash-rule);padding-left:6px}
+  .ln:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  /* ---------- transport ---------- */
+  .bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:30;
+    background:var(--surface);border-top:1px solid var(--line);
+    box-shadow:0 -6px 20px rgba(20,25,35,.10);
+    padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+  }
+  .bar-in{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+  .transport{display:flex;align-items:center;gap:10px;justify-content:center}
+  .tbtn{
+    flex:none;width:56px;height:52px;display:grid;place-items:center;
+    border:1px solid var(--line);background:var(--surface-2);color:var(--ink);
+    border-radius:var(--radius);cursor:pointer;
+  }
+  .tbtn:active{transform:translateY(1px)}
+  .tbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .tbtn svg{width:22px;height:22px;fill:currentColor}
+  .play{
+    flex:1;max-width:260px;height:52px;
+    display:flex;align-items:center;justify-content:center;gap:9px;
+    background:var(--accent);border:1px solid var(--accent);color:var(--accent-ink);
+    border-radius:var(--radius);cursor:pointer;
+    font:inherit;font-weight:600;font-size:16px;letter-spacing:.01em;
+  }
+  .play svg{width:20px;height:20px;fill:currentColor}
+  .play:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  .settings{display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap}
+  .stepper{display:flex;align-items:center;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface-2)}
+  .stepper button{
+    font:inherit;border:0;background:transparent;color:var(--ink);
+    width:38px;height:38px;cursor:pointer;font-size:18px;line-height:1;
+  }
+  .stepper button:hover{background:var(--line)}
+  .stepper b{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:13px;font-weight:500;
+    min-width:48px;text-align:center;font-variant-numeric:tabular-nums;
+  }
+  select{
+    font:inherit;font-size:13px;height:38px;max-width:210px;
+    border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface-2);color:var(--ink);padding:0 8px;
+  }
+  select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+  .note{
+    margin:16px 0 0;padding:12px 14px;border-radius:var(--radius);
+    background:var(--surface-2);border:1px solid var(--line);
+    color:var(--muted);font-size:13px;line-height:1.5;
+  }
+  .note b{color:var(--ink);font-weight:600}
+  .hidden{display:none !important}
+  @media (prefers-reduced-motion: reduce){
+    *{transition-duration:.001ms !important;scroll-behavior:auto !important}
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="mark" aria-hidden="true"><span></span></div>
+    <h1>Clause Reader</h1>
+    <div class="chip" id="chip" data-state="idle">Ready</div>
+  </header>
+
+  <!-- PASTE VIEW -->
+  <section id="paste-view">
+    <div class="panel">
+      <p class="lede">Paste the contract text below and tap Read aloud. Built for a phone: tap any line to start from there, and it keeps your place if you close the tab.</p>
+      <textarea id="input" placeholder="Paste clause text here — from a PDF, email, Word, anywhere." spellcheck="false"></textarea>
+      <div class="row">
+        <button class="btn btn-primary" id="go">Read aloud</button>
+        <button class="btn" id="pick">Open a text file</button>
+        <input type="file" id="file" accept=".txt,.md,.markdown,.csv,text/plain" class="hidden">
+        <button class="btn btn-quiet hidden" id="back-to-reader">Back to reading</button>
+      </div>
+      <p class="hint" id="paste-hint"></p>
+    </div>
+    <p class="note"><b>One limit worth knowing:</b> browser speech stops when you lock the screen or switch apps, so keep this tab open while you listen. For lock-screen or hands-free playback, ask me to render the same text as an audio file instead.</p>
+  </section>
+
+  <!-- READER VIEW -->
+  <section id="read-view" class="hidden">
+    <div class="meter">
+      <b id="pos">Line 1 / 1</b>
+      <span id="left">&mdash;</span>
+      <button class="btn btn-quiet" id="edit" style="margin-left:auto">Edit text</button>
+    </div>
+    <div class="track"><i id="fill"></i></div>
+    <div class="doc" id="doc"></div>
+  </section>
+</div>
+
+<div class="bar hidden" id="bar">
+  <div class="bar-in">
+    <div class="transport">
+      <button class="tbtn" id="prev" aria-label="Previous line" title="Previous line">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6h2v12H7zm3 6 9-6v12z"/></svg>
+      </button>
+      <button class="play" id="play" aria-label="Play">
+        <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        <span id="play-label">Play</span>
+      </button>
+      <button class="tbtn" id="next" aria-label="Next line" title="Next line">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6h2v12h-2zM5 18V6l9 6z"/></svg>
+      </button>
+    </div>
+    <div class="settings">
+      <div class="stepper" role="group" aria-label="Speed">
+        <button id="slower" aria-label="Slower">&minus;</button>
+        <b id="rate">1.0&times;</b>
+        <button id="faster" aria-label="Faster">+</button>
+      </div>
+      <select id="voice" aria-label="Voice"></select>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var synth = window.speechSynthesis;
+  var $ = function(id){ return document.getElementById(id); };
+
+  var els = {
+    chip:$("chip"), pasteView:$("paste-view"), readView:$("read-view"), bar:$("bar"),
+    input:$("input"), go:$("go"), pick:$("pick"), file:$("file"), pasteHint:$("paste-hint"),
+    backToReader:$("back-to-reader"), doc:$("doc"), pos:$("pos"), left:$("left"), fill:$("fill"),
+    edit:$("edit"), play:$("play"), playIcon:$("play-icon"), playLabel:$("play-label"),
+    prev:$("prev"), next:$("next"), slower:$("slower"), faster:$("faster"),
+    rate:$("rate"), voice:$("voice")
+  };
+
+  var state = { lines:[], idx:0, playing:false, rate:1, voiceURI:null, raw:"" };
+  var current = null, wakeLock = null, guard = null, finished = false;
+  var RATES = [0.7,0.8,0.9,1.0,1.1,1.2,1.4,1.6,1.8,2.0];
+  var KEY = "clause-reader-v1";
+  var DOT = "\uE000"; // stand-in for a period that must not end a line
+
+  /* ---------- storage (sandbox-safe) ---------- */
+  function save(){
+    try{
+      localStorage.setItem(KEY, JSON.stringify({
+        raw:state.raw, idx:state.idx, rate:state.rate, voiceURI:state.voiceURI
+      }));
+    }catch(e){}
+  }
+  function load(){
+    try{ return JSON.parse(localStorage.getItem(KEY) || "null"); }catch(e){ return null; }
+  }
+
+  /* ---------- text into speakable lines ---------- */
+  var ABBR = /\b(No|Nos|Inc|Ltd|LLC|Co|Corp|Sec|Art|Cl|Sch|Mr|Mrs|Ms|Dr|St|approx|etc|vs|e\.g|i\.e|U\.S|U\.K|para|pp)\.(\s|$)/g;
+
+  function splitLines(raw){
+    var paras = raw.replace(/\r/g,"").split(/\n+/), out = [], pi = 0;
+    for(var p=0; p<paras.length; p++){
+      var t = paras[p].replace(/[ \t]+/g," ").trim();
+      if(!t) continue;
+      // Shield periods that do not end a sentence: abbreviations and numbering like 12.3
+      var safe = t.replace(ABBR, function(m){ return m.split(".").join(DOT); })
+                  .replace(/(\d)\.(?=\d)/g, "$1" + DOT)
+                  .replace(/^(\(?[0-9A-Za-z]{1,4}\)?(?:\.[0-9]+)*)\.(?=\s)/, "$1" + DOT);
+      var parts = safe.match(/[^.!?;]+[.!?;]+["'’”)\]]*|[^.!?;]+$/g) || [safe];
+      for(var i=0; i<parts.length; i++){
+        var s = parts[i].split(DOT).join(".").trim();
+        if(!s) continue;
+        var chunks = chunk(s);
+        for(var c=0; c<chunks.length; c++) out.push({ text:chunks[c], para:pi });
+      }
+      pi++;
+    }
+    return out;
+  }
+
+  // Long sentences are cut at punctuation into shorter utterances: short ones sidestep
+  // the ~15s cutoff some mobile browsers apply mid-speech, and keep the highlight tight.
+  // Every piece is a slice of the original string, so the text on screen is never rewritten.
+  function chunk(s){
+    var LIMIT = 190;
+    if(s.length <= LIMIT) return [s];
+    var bounds = [], re = /,\s|;\s|:\s|\u2014\s?|\s\u2013\s/g, m;
+    while((m = re.exec(s)) !== null) bounds.push(m.index + m[0].length);
+    var out = [], start = 0;
+    while(start < s.length){
+      if(s.length - start <= LIMIT){ out.push(s.slice(start).trim()); break; }
+      var pick = -1;
+      for(var i=0; i<bounds.length; i++){
+        if(bounds[i] <= start) continue;
+        if(bounds[i] - start <= LIMIT) pick = bounds[i];
+        else break;
+      }
+      if(pick < 0){
+        var sp = s.lastIndexOf(" ", start + LIMIT);
+        pick = (sp > start) ? sp + 1 : Math.min(start + LIMIT, s.length);
+      }
+      out.push(s.slice(start, pick).trim());
+      start = pick;
+    }
+    return out.filter(Boolean);
+  }
+
+  // Spoken form only. What is on screen stays exactly as pasted.
+  function forSpeech(t){
+    return t
+      .replace(/§§/g," Sections ").replace(/§/g," Section ")
+      .replace(/&/g," and ")
+      .replace(/%/g," percent ")
+      .replace(/\$\s?(\d[\d,]*(?:\.\d+)?)\s+(million|billion|trillion|thousand)\b/gi," $1 $2 dollars ")
+      .replace(/\$\s?(\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\d+(?:\.\d{1,2})?)/g," $1 dollars ")
+      .replace(/\be\.g\./gi,"for example,")
+      .replace(/\bi\.e\./gi,"that is,")
+      .replace(/\bvs?\.\s/gi,"versus ")
+      .replace(/\bNo\.\s?(\d)/g,"Number $1")
+      .replace(/\bSec\.\s?(\d)/g,"Section $1")
+      .replace(/\bCl\.\s?(\d)/g,"Clause $1")
+      .replace(/\bArt\.\s?(\d)/g,"Article $1")
+      .replace(/\bSch\.\s?(\d)/g,"Schedule $1")
+      .replace(/[_•*]{2,}/g," ")
+      .replace(/\.{3,}/g," ")
+      .replace(/\s+([,;.:])/g,"$1")
+      .replace(/\s{2,}/g," ")
+      .trim();
+  }
+
+  /* ---------- render ---------- */
+  function esc(s){
+    return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+  function renderDoc(){
+    var html = "", para = -1;
+    for(var i=0; i<state.lines.length; i++){
+      var l = state.lines[i];
+      if(l.para !== para){
+        if(para !== -1) html += "</p>";
+        html += "<p>";
+        para = l.para;
+      }
+      html += '<span class="ln" data-i="' + i + '" tabindex="0" role="button">' + esc(l.text) + "</span> ";
+    }
+    if(para !== -1) html += "</p>";
+    els.doc.innerHTML = html;
+  }
+
+  function paint(scroll){
+    var nodes = els.doc.querySelectorAll(".ln");
+    for(var i=0; i<nodes.length; i++){
+      nodes[i].className = "ln" + (i < state.idx ? " done" : (i === state.idx ? " now" : ""));
+    }
+    var total = state.lines.length || 1;
+    els.pos.textContent = "Line " + (state.idx + 1) + " / " + total;
+    els.fill.style.width = ((state.idx / total) * 100).toFixed(2) + "%";
+    els.left.textContent = remaining();
+    if(scroll && nodes[state.idx]){
+      nodes[state.idx].scrollIntoView({ block:"center", behavior:"smooth" });
+    }
+    save();
+  }
+
+  function remaining(){
+    var words = 0;
+    for(var i=state.idx; i<state.lines.length; i++){
+      words += state.lines[i].text.split(/\s+/).length;
+    }
+    var mins = words / (165 * state.rate);
+    if(mins < 1) return "under a minute left";
+    return "~" + Math.round(mins) + " min left";
+  }
+
+  function setStatus(s){
+    els.chip.dataset.state = (s === "Reading") ? "reading" : "idle";
+    els.chip.textContent = s;
+  }
+
+  function setPlayUI(on){
+    els.playIcon.innerHTML = on
+      ? '<path d="M6 5h4v14H6zm8 0h4v14h-4z"/>'
+      : '<path d="M8 5v14l11-7z"/>';
+    els.playLabel.textContent = on ? "Pause" : "Play";
+    els.play.setAttribute("aria-label", on ? "Pause" : "Play");
+  }
+
+  /* ---------- playback ---------- */
+  function speak(){
+    if(!state.lines.length) return;
+    if(state.idx >= state.lines.length){ finish(); return; }
+    var u = new SpeechSynthesisUtterance(forSpeech(state.lines[state.idx].text));
+    u.rate = state.rate;
+    var v = voiceByURI(state.voiceURI);
+    if(v){ u.voice = v; u.lang = v.lang; }
+    u.onend = function(){
+      if(current !== u || !state.playing) return;
+      if(state.idx < state.lines.length - 1){
+        state.idx++;
+        paint(true);
+        speak();
+      } else {
+        finish();
+      }
+    };
+    u.onerror = function(e){
+      if(e && (e.error === "interrupted" || e.error === "canceled")) return;
+      state.playing = false;
+      setPlayUI(false);
+      setStatus("Paused");
+      stopGuard();
+    };
+    current = u;
+    try{ synth.speak(u); }
+    catch(err){ state.playing = false; setPlayUI(false); setStatus("Paused"); }
+  }
+
+  function play(from){
+    if(typeof from === "number") state.idx = from;
+    if(state.idx >= state.lines.length) state.idx = 0;
+    finished = false;
+    synth.cancel();
+    state.playing = true;
+    setPlayUI(true);
+    setStatus("Reading");
+    paint(true);
+    speak();
+    keepAwake(true);
+    startGuard();
+  }
+
+  function pause(){
+    if(!state.playing && !synth.speaking) { keepAwake(false); stopGuard(); return; }
+    state.playing = false;
+    current = null;
+    synth.cancel();          // cancel rather than pause(): pause() is unreliable on mobile
+    setPlayUI(false);
+    setStatus("Paused");
+    keepAwake(false);
+    stopGuard();
+    save();
+  }
+
+  function finish(){
+    state.playing = false;
+    current = null;
+    finished = true;
+    synth.cancel();
+    state.idx = state.lines.length - 1;
+    paint(false);
+    setPlayUI(false);
+    setStatus("Finished");
+    keepAwake(false);
+    stopGuard();
+  }
+
+  function step(delta){
+    if(!state.lines.length) return;
+    var target = Math.min(Math.max(state.idx + delta, 0), state.lines.length - 1);
+    if(state.playing){ play(target); }
+    else { state.idx = target; finished = false; paint(true); }
+  }
+
+  // If an utterance dies silently (a known mobile quirk), pick the line back up.
+  function startGuard(){
+    stopGuard();
+    guard = setInterval(function(){
+      if(!state.playing) return;
+      if(!synth.speaking && !synth.pending) speak();
+    }, 3000);
+  }
+  function stopGuard(){ if(guard){ clearInterval(guard); guard = null; } }
+
+  function keepAwake(on){
+    try{
+      if(on && navigator.wakeLock && !wakeLock){
+        navigator.wakeLock.request("screen").then(function(l){ wakeLock = l; }).catch(function(){});
+      } else if(!on && wakeLock){
+        wakeLock.release().catch(function(){});
+        wakeLock = null;
+      }
+    }catch(e){}
+  }
+
+  /* ---------- voices ---------- */
+  function voiceByURI(uri){
+    var all = synth ? synth.getVoices() : [];
+    for(var i=0; i<all.length; i++){ if(all[i].voiceURI === uri) return all[i]; }
+    return null;
+  }
+  function fillVoices(){
+    var all = synth.getVoices();
+    if(!all.length) return;
+    all = all.slice().sort(function(a,b){
+      var ae = a.lang.indexOf("en") === 0 ? 0 : 1, be = b.lang.indexOf("en") === 0 ? 0 : 1;
+      if(ae !== be) return ae - be;
+      return a.name.localeCompare(b.name);
+    });
+    els.voice.innerHTML = "";
+    for(var i=0; i<all.length; i++){
+      var o = document.createElement("option");
+      o.value = all[i].voiceURI;
+      o.textContent = all[i].name + " (" + all[i].lang + ")";
+      els.voice.appendChild(o);
+    }
+    if(!voiceByURI(state.voiceURI)){
+      var pref = null, j;
+      for(j=0; j<all.length; j++){
+        if(all[j].lang.indexOf("en") === 0 && all[j].localService){ pref = all[j]; break; }
+      }
+      if(!pref){
+        for(j=0; j<all.length; j++){ if(all[j].lang.indexOf("en") === 0){ pref = all[j]; break; } }
+      }
+      state.voiceURI = (pref || all[0]).voiceURI;
+    }
+    els.voice.value = state.voiceURI;
+  }
+
+  /* ---------- views ---------- */
+  function showReader(text, startAt){
+    state.raw = text;
+    state.lines = splitLines(text);
+    if(!state.lines.length){
+      els.pasteHint.textContent = "That came through empty. Paste some text first.";
+      return;
+    }
+    state.idx = Math.min(Math.max(startAt || 0, 0), state.lines.length - 1);
+    finished = false;
+    renderDoc();
+    paint(false);
+    els.pasteView.classList.add("hidden");
+    els.readView.classList.remove("hidden");
+    els.bar.classList.remove("hidden");
+    setPlayUI(false);
+    setStatus(state.idx > 0 ? "Paused" : "Ready");
+    save();
+  }
+  function showPaste(){
+    pause();
+    els.input.value = state.raw;
+    els.pasteView.classList.remove("hidden");
+    els.readView.classList.add("hidden");
+    els.bar.classList.add("hidden");
+    els.backToReader.classList.toggle("hidden", !state.lines.length);
+    setStatus("Ready");
+  }
+
+  /* ---------- wiring ---------- */
+  els.go.addEventListener("click", function(){
+    els.pasteHint.textContent = "";
+    showReader(els.input.value, 0);
+  });
+  els.backToReader.addEventListener("click", function(){ showReader(state.raw, state.idx); });
+  els.pick.addEventListener("click", function(){ els.file.click(); });
+  els.file.addEventListener("change", function(){
+    var f = els.file.files && els.file.files[0];
+    if(!f) return;
+    var r = new FileReader();
+    r.onload = function(){
+      els.input.value = String(r.result || "");
+      els.pasteHint.textContent = f.name + " loaded. Tap Read aloud.";
+    };
+    r.onerror = function(){ els.pasteHint.textContent = "That file would not open. Paste the text instead."; };
+    r.readAsText(f);
+  });
+  els.edit.addEventListener("click", showPaste);
+
+  els.play.addEventListener("click", function(){
+    if(state.playing) pause();
+    else play(finished ? 0 : state.idx);
+  });
+  els.prev.addEventListener("click", function(){ step(-1); });
+  els.next.addEventListener("click", function(){ step(1); });
+
+  els.doc.addEventListener("click", function(e){
+    var t = e.target.closest(".ln");
+    if(t) play(parseInt(t.dataset.i, 10));
+  });
+  els.doc.addEventListener("keydown", function(e){
+    if(e.key !== "Enter" && e.key !== " ") return;
+    var t = e.target.closest(".ln");
+    if(t){ e.preventDefault(); play(parseInt(t.dataset.i, 10)); }
+  });
+
+  function setRate(r){
+    state.rate = r;
+    els.rate.innerHTML = r.toFixed(1) + "&times;";
+    els.left.textContent = remaining();
+    save();
+    if(state.playing) play(state.idx);
+  }
+  els.slower.addEventListener("click", function(){
+    setRate(RATES[Math.max(RATES.indexOf(state.rate) - 1, 0)]);
+  });
+  els.faster.addEventListener("click", function(){
+    setRate(RATES[Math.min(RATES.indexOf(state.rate) + 1, RATES.length - 1)]);
+  });
+  els.voice.addEventListener("change", function(){
+    state.voiceURI = els.voice.value;
+    save();
+    if(state.playing) play(state.idx);
+  });
+
+  document.addEventListener("keydown", function(e){
+    if(e.target && /^(TEXTAREA|INPUT|SELECT)$/.test(e.target.tagName)) return;
+    if(e.code === "Space"){ e.preventDefault(); els.play.click(); }
+    else if(e.key === "ArrowRight"){ step(1); }
+    else if(e.key === "ArrowLeft"){ step(-1); }
+  });
+
+  document.addEventListener("visibilitychange", function(){
+    if(document.hidden && state.playing) pause();
+  });
+  window.addEventListener("pagehide", function(){ if(synth) synth.cancel(); });
+
+  if(synth){
+    fillVoices();
+    synth.addEventListener("voiceschanged", fillVoices);
+  } else {
+    els.pasteHint.textContent = "This browser has no built-in speech. Ask for an audio file version instead.";
+    els.go.disabled = true;
+  }
+
+  var prior = load();
+  if(prior && prior.rate) state.rate = prior.rate;
+  if(prior && prior.voiceURI) state.voiceURI = prior.voiceURI;
+  els.rate.innerHTML = state.rate.toFixed(1) + "&times;";
+  if(prior && prior.raw){
+    els.input.value = prior.raw;
+    showReader(prior.raw, prior.idx || 0);
+  }
+})();
+</script>
