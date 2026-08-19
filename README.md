@@ -8,11 +8,21 @@ on 74th Street, Marathon, FL.
 | [`business-plan.md`](business-plan.md) | The plan — concept, regulatory reality, revenue model, market, phasing, risks |
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
 | [`financial-model.md`](financial-model.md) | Unit economics and the inputs still needed |
+| [`financing-reality.md`](financing-reality.md) | **Can this actually be bought?** Qualification math, the trailer/lazy river questions, and five paths that could work |
 
 ## Status
 
 First draft, August 2026. Built from a verbal brief. Assumptions are tagged `[ASSUMPTION]`
 / `[A]` / `[U]` throughout and need replacing with real figures.
+
+## Where this stands
+
+Two hard constraints, both confirmed:
+
+1. **The building rights** are the property's real value, and they're fragile (below).
+2. **The financing doesn't work at current income** — roughly a third of what a conventional
+   purchase needs, and this property can't be conventionally financed anyway because the
+   structures are uninhabitable. See `financing-reality.md` for the paths that could work.
 
 ## The single most important thing in here
 
