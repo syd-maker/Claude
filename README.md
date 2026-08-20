@@ -1,17 +1,18 @@
-# AFIN → Lightroom
+# Afi pics → Lightroom
 
-Pulls new photos out of a Messages thread and drops them into a Lightroom
-import folder, so "AFIN sent new rock pics" stops being a manual save-each-one
-job.
+Pulls new photos out of a **WhatsApp** or **Messages** thread and drops them
+into a Lightroom import folder, so "Afi sent new rock pics" stops being a
+manual save-each-one job.
 
-**macOS only.** It reads the local Messages database, which only exists on your
-Mac — it cannot work from a Claude session started on your phone or the web.
+**macOS only.** It reads WhatsApp and Messages data stored on your Mac — it
+cannot work from a Claude session started on your phone or the web.
 
 ## One-time setup
 
 ### 1. Give your terminal Full Disk Access
 
-Messages' database is protected. Without this, the script cannot read it.
+WhatsApp and Messages data is protected by macOS. Without this, the script
+cannot read either one.
 
 **System Settings → Privacy & Security → Full Disk Access** → `+` → add
 **Terminal** (or iTerm, or the Claude Code app — whichever you'll run it from),
@@ -24,8 +25,12 @@ apply to an already-running process.
 ./scripts/afin_pull.py --list-chats
 ```
 
-Note how the thread actually shows up — a contact name, a group name, or a bare
-phone number. That's what you pass to `--from`.
+This lists threads from **both** apps, tagged `WhatsApp` or `Messages`. Note
+how Afi's thread actually shows up — a contact name or a bare number — and pass
+that to `--from`.
+
+UK numbers work in any format. `+44 7700 900123`, `07700 900123`, and
+`447700900123` all resolve to the same chat, so use whichever you have.
 
 ### 3. Save your settings (optional but recommended)
 
@@ -33,9 +38,10 @@ phone number. That's what you pass to `--from`.
 mkdir -p ~/.config/afin-pull
 cat > ~/.config/afin-pull/config.json <<'EOF'
 {
-  "from": "AFIN",
+  "from": "+447700900123",
+  "source": "whatsapp",
   "dest": "~/Pictures/Afie Edit",
-  "prefix": "AFIN"
+  "prefix": "AFI"
 }
 EOF
 ```
@@ -66,18 +72,23 @@ catalogue on their own.
 **Copies:** photos *received* in that thread — HEIC, JPEG, PNG, TIFF, WebP, and
 raw formats (DNG, CR2/CR3, NEF, ARW, RAF, ORF, RW2, …).
 
-**Skips:** videos, GIFs, PDFs, contact cards, anything under 50 KB (stickers,
-tapback thumbnails), photos *you* sent, and anything it has already pulled
-before.
+**Skips:** videos, voice notes, GIFs, PDFs, contact cards, anything under 50 KB
+(stickers and thumbnails), photos *you* sent, and anything it has already
+pulled before.
 
-**Never touches your Messages data.** It snapshots `chat.db` to a temp
-directory, opens that copy read-only, and copies files out. Nothing is written
-back, and nothing is deleted from your phone or Mac.
+**Never touches your WhatsApp or Messages data.** It snapshots the database to
+a temp directory, opens that copy read-only, and copies files out. Nothing is
+written back, and nothing is deleted from your phone or Mac.
 
 ### Files that aren't on this Mac yet
 
-If photos live only in iCloud, the script lists them and skips them. Open the
-thread in Messages, scroll so they download, then run it again.
+Both apps keep some media in the cloud rather than on disk. The script lists
+anything it can't find locally and skips it. Open the chat, scroll to those
+photos so they download, then run it again.
+
+WhatsApp in particular only keeps what you've actually viewed on the Mac. If
+you've mostly used WhatsApp on your phone, open the chat on the Mac and scroll
+back through the rock pics first.
 
 ## Repeat runs
 
@@ -104,6 +115,7 @@ are still skipped by content hash, so you won't get duplicates).
 | Flag | Does |
 |---|---|
 | `--from NAME` | Contact name, phone, or email. Resolves names via Contacts. Default `AFIN`. |
+| `--source APP` | `whatsapp`, `messages`, or `auto` (default — tries both). |
 | `--dest PATH` | Destination folder. Default: auto-detects a folder matching `Afie Edit`. |
 | `--since 14d` | Only messages newer than this — `14d`, `36h`, `2w`, or `2026-08-01`. |
 | `--all` | Ignore the last-run marker; consider the whole thread. |
@@ -123,11 +135,19 @@ chronologically, which is usually how you want to cull a batch.
 
 ## Troubleshooting
 
-**`permission denied reading .../chat.db`** — Full Disk Access isn't applied.
-Redo step 1, and make sure you fully quit and reopened the app.
+**`permission denied reading ...`** — Full Disk Access isn't applied. Redo
+step 1, and make sure you fully quit and reopened the app.
 
-**`no thread matched 'AFIN'`** — run `--list-chats` and use the exact label you
-see, or pass her phone number instead: `--from '+15551234567'`.
+**`no thread matched ...`** — run `--list-chats` and use the exact label you
+see, or pass her number instead: `--from '+447700900123'`.
+
+**`WhatsApp: no local data found on this Mac`** — WhatsApp Desktop isn't
+installed, or has never synced. Install it and sign in, then open Afi's chat so
+it downloads.
+
+**`WhatsApp: database unreadable`** — WhatsApp moved its schema in a newer
+version. The script falls back to scanning the media folder by phone number,
+which still finds the photos but has less metadata. Nothing to fix.
 
 **`could not find a folder matching 'Afie Edit'`** — pass it explicitly with
 `--dest`, or put it in the config file.
