@@ -1,0 +1,7 @@
+{
+  "from": "AFIN",
+  "dest": "~/Pictures/Afie Edit",
+  "prefix": "AFIN",
+  "include_mine": false,
+  "min_bytes": 50000
+}
