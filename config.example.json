@@ -1,0 +1,8 @@
+{
+  "from": "+447700900123",
+  "source": "whatsapp",
+  "dest": "~/Pictures/Afie Edit",
+  "prefix": "AFI",
+  "include_mine": false,
+  "min_bytes": 50000
+}
