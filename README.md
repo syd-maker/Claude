@@ -8,6 +8,7 @@ on 74th Street, Marathon, FL.
 | [`business-plan.md`](business-plan.md) | The plan — concept, regulatory reality, revenue model, market, phasing, risks |
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
 | [`financial-model.md`](financial-model.md) | Unit economics and the inputs still needed |
+| [`revenue-projection.md`](revenue-projection.md) | Stabilized-year revenue and NOI across three scenarios |
 | [`financing-reality.md`](financing-reality.md) | **Can this actually be bought?** Qualification math, the trailer/lazy river questions, and five paths that could work |
 
 ## Status
