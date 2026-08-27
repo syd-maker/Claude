@@ -1,175 +1,152 @@
-# Stabilized Revenue Projection
+# Stabilized Revenue Projection — Seasonal Model
 
-**Configuration modeled** (as you specified): coffee stand with strong marketing, the full
-painting experience, a partial/short experience, private painting events, and two full-time
-vacation rental units in the duplex.
+**Revised to owner's inputs (Aug 2026):** ticket capped at **$65**, and modeled as a genuinely
+**seasonal** business rather than year-round.
 
-**Unit math checks out:** 2 vacation rentals + your residence = 3 dwelling units = exactly
-your three building rights. No fourth right needed, no workforce-housing path required. This
-configuration fits the property's entitlements precisely.
+**Configuration:** coffee stand, full painting experience, partial/mini experience, private
+painting events, two full-time vacation rental units (duplex), owner's residence.
+Three dwelling units = exactly the three building rights.
 
-> **This is a STABILIZED year — roughly year 3+.** Not year one. The garden needs seasons to
-> mature, reviews accumulate slowly, and concierge/charter relationships take time. **Expect
-> year 1 at 40–55% of the base case.**
+> **Stabilized year — roughly year 3.** Year 1 realistically runs 40–55% of these figures.
 
 ---
 
-## 1. Gross revenue
+## 1. The three real Keys seasons
 
-| Line | Conservative | Base | Optimistic |
-|---|---:|---:|---:|
-| Full painting experience | $178,503 | **$267,002** | $362,117 |
-| Mini session (partial) | $28,037 | **$46,891** | $68,412 |
-| Garden admission | $20,010 | **$45,306** | $84,320 |
-| Private painting events | $24,000 | **$46,800** | $79,800 |
-| Coffee stand | $63,278 | **$100,808** | $142,738 |
-| Vacation rentals (2 units) | $69,377 | **$92,595** | $118,804 |
-| **TOTAL GROSS REVENUE** | **$383,205** | **$599,402** | **$856,191** |
-
-### Volume behind the base case
-- **3,141 experience guests/year** — about 8 per session across ~400 sessions
-- **13,441 coffee tickets/year** — about 37/day averaged across the year
-- **$46,298 per vacation rental unit/year**
-- **26 private events/year**
-
-### Key assumptions `[A]`
-| | Conservative | Base | Optimistic |
+| Season | Months | Days | Operation |
 |---|---|---|---|
-| Experience ticket | $75 | $85 | $95 |
-| Load factor (high/low season) | 55% / 28% | 70% / 40% | 82% / 52% |
-| Coffee tickets/day (high/low) | 38 / 18 | 55 / 28 | 72 / 38 |
-| VR nightly (high/low) | $225 / $155 | $260 / $175 | $300 / $200 |
-| VR occupancy (high/low) | 65% / 38% | 75% / 45% | 82% / 52% |
+| **High** | Dec–Apr | 151 | Full: 5 days/wk, 2 sessions/day |
+| **Shoulder** | May, Nov | 61 | Reduced: 4 days/wk, 1 session/day |
+| **Low** | Jun–Oct | 153 | Minimal: 2 days/wk, 1 session/day |
 
-Seasons: high = Dec–Apr (151 days), low = May–Nov (214 days). Experience runs 2 sessions/day,
-5 days/week high season and 3 days/week low. Coffee runs 7 days/week high, 6 low.
+294 sessions/year, down from 400 in the year-round model.
 
-## 2. Operating costs
+## 2. Gross revenue at $65
 
-| | Conservative | Base | Optimistic |
+| Line | @ $85 | **@ $65** | Delta |
 |---|---:|---:|---:|
-| Art materials | $40,685 | $55,454 | $69,339 |
-| Coffee COGS (30%) | $18,983 | $30,242 | $42,821 |
-| Labor — barista | $52,860 | $52,860 | $52,860 |
-| Labor — instruction | $36,448 | $55,393 | $75,976 |
-| Labor — host/bookings | $30,000 | $30,000 | $30,000 |
-| Labor — groundskeeping | $22,000 | $22,000 | $22,000 |
-| VR cleaning + platform fees | $6,244 | $8,334 | $10,692 |
-| VR management (20%) | $13,875 | $18,519 | $23,761 |
-| Card processing (3%) | $11,496 | $17,982 | $25,686 |
-| Insurance | $42,000 | $52,000 | $62,000 |
-| Property tax | $12,000 | $12,000 | $12,000 |
-| Utilities / water | $18,000 | $18,000 | $18,000 |
-| Marketing (8% of experience rev) | $20,044 | $32,480 | $47,572 |
-| Software / POS / booking | $5,000 | $5,000 | $5,000 |
-| Repairs + reserve | $13,469 | $14,630 | $15,940 |
-| Licenses / professional | $10,000 | $10,000 | $10,000 |
-| **TOTAL COSTS** | **$353,105** | **$434,894** | **$523,647** |
+| Full painting experience | $216,563 | **$165,607** | −$50,956 |
+| Mini session | $43,731 | **$33,442** | −$10,290 |
+| Garden admission | $34,110 | **$34,110** | — |
+| Private events | $47,736 | **$36,504** | −$11,232 |
+| Coffee stand | $98,641 | **$98,641** | — |
+| Vacation rentals (2) | $92,506 | **$92,506** | — |
+| **GROSS REVENUE** | $533,288 | **$460,810** | **−$72,478** |
+
+Volume: 2,548 experience guests/year (2,114 high / 220 shoulder / 214 low), 13,152 coffee
+tickets, $46,253 per rental unit.
 
 ## 3. Net operating income
 
-| | Conservative | Base | Optimistic |
+| | @ $85 | **@ $65** |
+|---|---:|---:|
+| Gross revenue | $533,288 | **$460,810** |
+| Total operating costs | $371,372 | **$361,269** |
+| **NOI before debt** | $161,915 | **$99,541** |
+| Margin | 30% | **22%** |
+| **After $800k debt service** | $99,650 | **$37,276** |
+
+### What the $65 decision actually costs
+
+The price cut removes **$72,478 of revenue** but only **$10,103 of cost** — art materials,
+card fees, and marketing scale down; nothing else does.
+
+> **Net effect: −$62,375 straight off the bottom line. NOI falls 39% for a 24% price cut.**
+
+That is operating leverage working against you. It doesn't make $65 wrong — but it should be a
+decision made with the number in view, not a default.
+
+## 4. The seasonal squeeze — and what solves it
+
+**Fixed costs don't take the summer off.** Insurance, property tax, groundskeeping,
+host/bookings, utilities, software, professional fees, and debt service run all 365 days:
+
+> **$141,000/year fixed + $62,265 debt service = $16,939/month that must be paid whether
+> anyone shows up or not.**
+
+| | Revenue | Must-pay | Result |
 |---|---:|---:|---:|
-| **NOI before debt & owner pay** | **$30,100** | **$164,508** | **$332,545** |
-| Margin | 8% | 27% | 39% |
+| **Dec–Apr** (5 mo) | $330,570 | $84,694 | **+$245,876** |
+| **Jun–Oct** (5 mo) | $75,642 | $84,694 | **−$9,052** |
 
-### After debt service
+**The high season carries the entire year.** Five months generate 72% of annual revenue.
 
-| Loan | Annual debt service | Conservative | Base | Optimistic |
-|---|---:|---:|---:|---:|
-| $600k @ 6.75% | $46,699 | **−$16,599** | $117,809 | $285,846 |
-| $800k @ 6.75% | $62,265 | **−$32,165** | $102,243 | $270,279 |
-| $1.0M @ 6.75% | $77,832 | **−$47,732** | $86,676 | $254,713 |
+### The vacation rentals are what make this survivable
 
----
+In the dead months, the rentals contribute **$20,196** and coffee (serving locals, not
+tourists) contributes **$24,589**. Together they nearly cover the fixed costs.
 
-## 4. What this actually tells you
+**Strip the rentals out and the low season bleeds ~$29,000 instead of ~$9,000.**
 
-### The spread matters more than the midpoint
-Base case throws off **$102–118k/year** after debt — genuinely good, enough to live on and
-reinvest. Conservative case **loses money after debt service.** The difference between those
-two outcomes is not luck; it is load factor and ticket price.
+This revises earlier advice in `business-plan.md` §5.3. On a year-round assumption the rentals
+looked like modest-return ballast that cost you atmosphere. Under real seasonality they are
+**the counter-cyclical engine that keeps the doors open from June to October.** Keep them.
 
-### You have heavy operating leverage
-Roughly **$200,000/year of costs are fixed** regardless of how many guests show up — barista,
-host, groundskeeper, insurance, property tax, utilities, software, professional fees. That
-means:
+## 5. Is it worth pursuing?
 
-- Above roughly **$400k gross revenue**, additional revenue is enormously profitable
-- Below it, the fixed costs eat you alive
+**Yes — but the margin is thin, and the honest case depends on counting your housing.**
 
-**Estimated break-even: ~$390–400k gross revenue**, which is essentially the conservative
-case. Your entire margin of safety sits between conservative and base.
+### The cash picture alone is unexciting
+$37,276/year after debt service, at year 3, for a business that is genuinely a lot of work:
+staff to manage, guests daily, two rental turnovers, a garden to maintain, and a hurricane
+season every year. As a pure cash-on-cash return that does not justify an $800k leveraged
+purchase.
 
-### The experience *is* the business
-| Line | Share of base revenue |
+### But you also stop paying rent
+You would be living on the property. Marathon housing runs roughly **$30,000–36,000/year**
+`[A]`. That is real economic value you're currently paying to someone else.
+
+| | Annual |
 |---|---:|
-| Full experience | 45% |
-| Coffee stand | 17% |
-| Vacation rentals | 15% |
-| Mini session | 8% |
-| Garden admission | 8% |
-| Private events | 8% |
+| Cash after debt service | $37,276 |
+| Avoided rent | ~$33,000 |
+| Mortgage principal paydown (early years) | ~$8,500 |
+| **Effective annual benefit** | **~$78,776** |
 
-Painting in all its forms — full, mini, private events, plus the garden admission that exists
-because of it — is **69% of revenue.** Coffee and vacation rentals together are 32%.
+Plus appreciation on Keys land whose building rights cannot be replaced.
 
-This confirms the original strategy: the coffee stand is a funnel, not a profit center, and
-the rentals are ballast. **Protect the experience. Optimize for load factor above everything
-else.**
+**That is a genuinely reasonable outcome** for a first property — it just doesn't look like it
+until you count the housing.
 
-### The vacation rentals earn less than you'd think
-$92,595 gross across two units, but after cleaning, platform fees, and 20% management, they
-net roughly **$65,700** — about **11% of gross revenue** for a meaningful share of your
-hassle, your parking, and your quiet.
+### What would make it clearly worth it
+1. **Tier the pricing above $65** (§6) — the single highest-leverage change available.
+2. **Acquire without a conventional mortgage** (see `financing-reality.md`) — lower debt
+   service moves straight to the bottom line.
+3. **Push high-season load factor.** You're using 62% of theoretical seat capacity. Every
+   10-point gain in high-season load is worth roughly **$29,000** at near-pure margin.
 
-**Self-managing them adds ~$18,500/year** to the bottom line. That is real money, but it is
-also real work, and it contradicts your stated preference for managing rather than doing.
-Worth a deliberate decision rather than a default.
+### What would make it not worth it
+- **Insurance above ~$70k** (modeled at $50k `[A]`) erases most of the cash return
+- **A missed high season** — hurricane, closure, illness — has no second chance. There is no
+  summer to make it up in
+- **Year 1 at 40–55%** will not cover debt service. That gap is a capital requirement, not a
+  rounding error
 
----
+## 6. The pricing recommendation
 
-## 5. Sensitivities that decide the outcome
+Keep **$65 as your public session price.** It's fillable, it's honest, and it sits mid-range
+for paint-and-sip ($30–75) and at the accessible end of Keys activities ($40–90). Your
+instinct to stay reachable is sound.
 
-**1. Ticket price is the single most sensitive input.** Note that typical paint-and-sip runs
-**$30–75/person**, with private events **$50–100+**. My $85 base sits *above* the paint-and-sip
-market. It's defensible — but only because your real competitive set is **Keys activities**
-(snorkel trips, sunset sails, glass-bottom boat, Crane Point) which run roughly $40–90, and
-because the garden is genuinely differentiated. **If the garden doesn't deliver a wow, you're
-a $60 paint-and-sip with high overhead.** The garden is not decoration; it is the pricing
-justification.
+**Then tier above it**, so the garden gets monetized by the guests who will pay for it:
 
-**2. Load factor is the whole game.** Each 10-point move in high-season load is worth roughly
-**$38,000/year** in gross revenue at almost pure margin. This is why the marketing spend and
-the concierge/charter relationships are not optional.
+| Offering | Price | Notes |
+|---|---|---|
+| Public session | **$65** | The anchor. High volume, easy yes |
+| Sunset / golden-hour session | **$85** | Same cost to run, better light, genuinely better |
+| Small-group premium (6 seats) | **$120** | Longer, more instruction, includes something extra |
+| Private events | **$1,400+** | Already the highest-margin line |
 
-**3. Insurance is the cost most likely to blow up.** $42–62k modeled `[A]` for a Keys property
-with public guests, food service, three structures, and two vacation rentals. **Get real
-quotes early.** A $30k surprise here erases a third of base-case NOI.
-
----
-
-## 6. Two things not modeled
-
-**Alcohol.** Paint-and-sip normally means wine, and you haven't mentioned it. Adding beverage
-service could add meaningfully to per-guest revenue — but it requires a Florida liquor
-license, changes your liability profile, and will affect your insurance. Decide deliberately;
-don't drift into it.
-
-**Weather and hurricane closure.** No allowance is modeled for a season disrupted by a storm.
-In the Keys this is a when, not an if. Carry a reserve equal to at least one high season of
-fixed costs (~$100k) before you consider this business safe.
+This captures higher willingness-to-pay without ever making the front door expensive. Adding
+even two premium sessions a week in high season recovers a meaningful share of the $62,375 the
+price cut costs you — **without touching your $65 anchor.**
 
 ---
 
 ## Bottom line
 
-**Base case: ~$600,000 gross revenue, ~$165,000 NOI, ~$102–118k/year after debt service.**
+**$460,810 gross · $99,541 NOI · $37,276 after debt · ~$79,000 effective once housing counts.**
 
-Realistic range **$383k–856k gross**, and the low end does not survive debt. This is a real
-business with real upside — but it is a volume business with heavy fixed costs, not a
-lifestyle business that coasts. It works if you fill the sessions. It fails if you don't.
-
-**And note again: this is year 3+. Budget year 1 at 40–55% of these numbers**, which means
-year 1 likely does *not* cover debt service. That gap is a capital requirement, and it belongs
-in the acquisition plan.
+Worth pursuing. Not worth overpaying for, and not worth doing on expensive debt. The business
+works; the acquisition structure is what decides whether it's a good decision — which puts you
+right back at seller financing, an option, or a partner.
