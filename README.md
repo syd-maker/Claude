@@ -9,6 +9,7 @@ on 74th Street, Marathon, FL.
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
 | [`financial-model.md`](financial-model.md) | Unit economics and the inputs still needed |
 | [`revenue-projection.md`](revenue-projection.md) | Stabilized-year revenue and NOI across three scenarios |
+| [`timeline.md`](timeline.md) | **How long the whole thing takes** — 6 years best case, 8 conventional |
 | [`construction-and-carry.md`](construction-and-carry.md) | Debt coverage (DSCR 1.60), build timeline, and the carry gap that phasing solves |
 | [`financing-reality.md`](financing-reality.md) | **Can this actually be bought?** Qualification math, the trailer/lazy river questions, and five paths that could work |
 
