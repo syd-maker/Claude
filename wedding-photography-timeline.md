@@ -2,6 +2,28 @@
 
 Modeled on the Fahrenbrook wedding timeline (recent shoot), adapted for Sarah & Brian.
 
+## Vendor contact sheet (fill in once known)
+
+| Vendor | Company | Contact | Email |
+|---|---|---|---|
+| Wedding Planner | | | |
+| Venue | | | |
+| Photographer | (you) | | |
+| Caterer | | | |
+| Bar Service | | | |
+| Floral/Décor | | | |
+| Reception Entertainment/DJ | | | |
+| Cake/Desserts | | | |
+| Officiant | | | |
+| Hair & Make-Up | | | |
+| Transportation | | | |
+
+## Hair & makeup schedule (per person, once known)
+
+Mirror the Fahrenbrook format — one column per person, stacked hair → makeup → touch-ups,
+so everyone can see their own slot at a glance. Needs: start time, location, and the list
+of who's getting hair/makeup done (bride, both moms, bridesmaids, etc.) with an order.
+
 ## Confirmed so far (from Sarah)
 - Venue access: 2:00pm
 - Ceremony: 5:00pm
