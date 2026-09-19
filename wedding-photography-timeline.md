@@ -1,40 +1,49 @@
 # Wedding Photography Timeline — Draft (Single Shooter)
 
-Modeled on the timeline from the wedding I just shot, adapted for this couple.
-This is my proposed structure to send Sarah — she fills in the blanks, I lock the times.
+Modeled on the Fahrenbrook wedding timeline (recent shoot), adapted for Sarah & Brian.
 
-## Open questions for Sarah (need before finalizing)
-- Ceremony start time + location
-- Getting-ready locations for each side (same venue / different venues?)
-- Local sunset time on the wedding date
-- Bridal shower: is this same-day or a separate earlier event? If same-day, when?
-- Family formals: how many combos / any complicated family dynamics to plan around?
-- Reception must-have moments (first dance, toasts, cake cutting) and their times
+## Confirmed so far (from Sarah)
+- Venue access: 2:00pm
+- Ceremony: 5:00pm
+- Doing a first look (exact timing still TBD)
+- Wedding party: couple, 2 moms, 2 dads, 5 bridesmaids (one is Brian's sister), 6 groomsmen
+- Family formals = immediate family only; bridal party covered separately
+- Want to catch some of cocktail hour, then step out for sunset couple photos
+- Time estimate already given to Sarah: ~90–110 min needed between first look and
+  ceremony for couple portraits (20-30min), bridal party (20-30min), family formals
+  (20-25min), and quick bridal solos (10-15min)
+
+## Still need from Sarah
+1. Hair/makeup start time and location(s) — one site or two?
+2. Preferred first look time within the 2:00–5:00 window
+3. Who's the designated "corraller" for family formals (keeps groupings from dragging)
+4. Portrait location(s) — on-site vs. traveling for first look/sunset
+5. Wedding date, to pin down actual sunset time
 
 ## Known constraints
-- No second shooter — getting-ready coverage for both sides can't happen simultaneously.
-  Default plan: prioritize bride's getting-ready in full, do a shorter/tighter block with
-  groom (or vice versa if he's getting ready closer to ceremony start).
-- Couple has been told deliverables will be lighter than a two-shooter wedding — no double coverage of simultaneous moments (e.g., can't get both sides' reactions to first look at once).
+- No second shooter — getting-ready coverage for both sides can't happen simultaneously;
+  sequential blocks, shorter on the second side.
+- Couple has been told deliverables will be lighter than a two-shooter wedding.
+- Original ask included solo portraits of each of them (not just couple shots) at sunset.
 
-## Draft skeleton (times TBD pending Sarah's answers)
+## Draft timeline (times TBD pending Sarah's answers, structured off the 2:00–5:00 window)
 
-| Block | Notes |
+| Time | Block |
 |---|---|
-| Getting ready — Side A (solos) | Details, candids, solo portraits |
-| Quick transition / travel | Buffer built in — single shooter needs it |
-| Getting ready — Side B (shorter block) | Solos only, less coverage by design |
-| First look (if couple wants one) | Frees up time later for portraits |
-| Couple portraits — round 1 | A few, not exhaustive — save more for golden hour |
-| Bridal party portraits | |
-| Family formals | Get the full shot list from Sarah in advance |
-| Ceremony | |
-| Cocktail hour | Candids, detail shots |
-| Reception — entrance / toasts / dinner | |
-| Golden hour — sunset couple + solo portraits | This is the priority shot the couple asked for |
-| Reception — dancing / exit | As time/light allows |
+| 2:00pm | Venue access — detail shots (rings, dress, invites, etc.) |
+| TBD | Getting ready candids — Side A |
+| TBD | Getting ready candids — Side B (shorter block, sequential) |
+| TBD | First look |
+| +20-30min | Couple portraits |
+| +20-30min | Bridal party portraits (full group, bridesmaids only, groomsmen only) |
+| +20-25min | Family formals (immediate family combos) |
+| +10-15min | Quick solos — bride and groom |
+| 5:00pm | Ceremony |
+| After ceremony | Cocktail hour — candids, then step out with couple |
+| Golden hour | Sunset portraits — a few of the couple together, a few solo each |
+| Reception | Per venue/DJ timeline |
 
 ## Next steps
-1. Send this to Sarah, get answers to the open questions above.
-2. Fill in real times once ceremony start + sunset time are known — build backward from ceremony, forward from sunset.
+1. Send draft email to Sarah with the open questions above.
+2. Lock real times once hair/makeup start, first look time, and sunset time are known.
 3. Confirm family formals shot list before wedding day.
