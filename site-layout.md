@@ -189,3 +189,106 @@ If you want a lazy river because *you* want to float at your own house, that's a
 legitimate want. Build it in Zone C behind your residence, private, out of profit, years from
 now — where it never touches the business's insurance or the DOH's jurisdiction. That version
 skips the $31,800 compliance bill and most of the annual cost.
+
+---
+
+## 7. A normal pool instead — this is the better idea
+
+### The good news first: yours would be a *private* pool
+
+Florida regulates "public pools" under 64E-9, and the threshold is **five or more living
+units.** A private pool is one serving an individual, family, or living-unit members and their
+guests, not part of a cooperative project of five or more units.
+
+**You'd have three units — your residence plus the duplex. You're under the threshold.**
+
+| | |
+|---|---|
+| **Your pool** | **Private — exempt from 64E-9** |
+| Saves | ~$31,800 DOH compliance |
+| Saves | Certified Pool Operator, water testing, operating permits |
+
+> **The one rule that keeps it exempt: residents and overnight rental guests only.**
+>
+> If painting-class guests or coffee customers use it, it becomes a pool serving the public at
+> a business — and you're straight back into public pool regulation. Fence it, gate it, put it
+> in Zone C behind the residences, and keep it out of the guest experience entirely.
+>
+> Confirm with Monroe County DOH, but the statutory threshold is clear enough to plan around.
+
+### Build cost in Marathon
+
+| Size | Cost |
+|---|---:|
+| 24 × 12 (288 sq ft) | $150,039 |
+| **28 × 14 (392 sq ft)** | **$177,703** |
+| 32 × 16 (512 sq ft) | $207,603 |
+| 36 × 18 (648 sq ft) | $239,742 |
+
+Breakdown for the 28 × 14: gunite shell $78,926 · deck $19,958 · finish $15,347 · barrier and
+gate $12,338 · tile and coping $10,773 · plumbing and pump $9,720 · excavation $9,310 ·
+filtration $7,830 · permits $7,425 · electrical $6,075.
+
+A true **plunge pool** (roughly 8 × 16) would land near **$95,000–115,000** — worth pricing if
+the budget is tight.
+
+### Operating cost — the real difference
+
+| | Pool | Lazy river |
+|---|---:|---:|
+| Chemicals | $900 | $4,500 |
+| Electricity | $620 | $5,555 |
+| Service | $1,800 | $6,000 |
+| Insurance | $1,200 | $9,000 |
+| Reserve | $1,400 | $5,500 |
+| Water | — | $900 |
+| **ANNUAL** | **$5,920** | **$31,455** |
+
+**A pool costs $25,535/year less to run than a lazy river.**
+
+### Does it pay for itself?
+
+A pool is **one of the most revenue-boosting amenities in Keys listings, adding about 20% to
+revenue.**
+
+| Rental lift | Added revenue | Net of pool opex | Payback |
+|---|---:|---:|---:|
+| +15% (conservative) | $13,876 | $7,956 | 22.3 yrs |
+| **+20% (sourced Keys figure)** | **$18,501** | **$12,581** | **14.1 yrs** |
+| +25% (optimistic) | $23,126 | $17,206 | 10.3 yrs |
+
+**Honest read: a 14-year payback is mediocre as a pure investment.** Keys construction costs
+are what kill it — the same pool on the mainland pays back in about 10.
+
+But that's not the whole picture:
+
+| | Without pool | With pool |
+|---|---:|---:|
+| Vacation rental revenue | $92,506 | **$111,007** |
+| NOI | $99,541 | **$112,122** |
+| **DSCR on $800k** | 1.60 | **1.80** |
+
+And **you live there.** A meaningful share of the value is that it's your pool, every day, for
+the rest of the time you own the property. That doesn't show up in a payback calculation.
+
+### The strategic argument that actually settles it
+
+**Your property is not waterfront.** You noted the comp across the street sold for $750k partly
+because it's closer to the water. In the Keys, a vacation rental with no water access is a weak
+product competing against thousands of listings that have it.
+
+**A pool is how an inland Keys rental competes.** It's not a luxury add-on — it's the thing that
+moves your duplex from "inland, no water" into a category people actually book. That argument
+matters more than the payback table.
+
+### Pool vs. lazy river, one line
+
+| | NOI | DSCR |
+|---|---:|---:|
+| **Pool** | **$112,122** | **1.80** |
+| Lazy river | $68,086 | 1.09 |
+
+> **$44,036/year swing between the two choices.** The pool earns; the river consumes.
+
+**Build the pool. In Zone C, fenced, for you and your rental guests.** Put the flowing stream in
+the garden for the butterflies and the birds, and you've got water in both places it belongs.
