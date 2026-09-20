@@ -9,6 +9,7 @@ on 74th Street, Marathon, FL.
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
 | [`financial-model.md`](financial-model.md) | Unit economics and the inputs still needed |
 | [`revenue-projection.md`](revenue-projection.md) | Stabilized-year revenue and NOI across three scenarios |
+| [`rental-strategy.md`](rental-strategy.md) | **Detached vs duplex, amenity ROI, and positioning without water** |
 | [`site-layout.md`](site-layout.md) | Layout logic, zones, and the lazy river costed out |
 | [`landscaper-brief.md`](landscaper-brief.md) | **Send this out for bids** — scope, plant list, no-pesticide clause |
 | [`seller-financing-explained.md`](seller-financing-explained.md) | **Start here** — seller financing vs. a normal mortgage, in plain English |
