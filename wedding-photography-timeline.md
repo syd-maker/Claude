@@ -62,7 +62,7 @@ of who's getting hair/makeup done (bride, both moms, bridesmaids, etc.) with an 
 | +10-15min | Quick solos — bride and groom |
 | 5:00pm | Ceremony |
 | After ceremony | Cocktail hour — candids, then step out with couple |
-| Golden hour | Sunset portraits — a few of the couple together, a few solo each |
+| Golden hour (15-25min) | Sunset portraits — a few of the couple together, a few solo each |
 | Reception | Per venue/DJ timeline |
 
 ## Next steps
