@@ -39,10 +39,8 @@ of who's getting hair/makeup done (bride, both moms, bridesmaids, etc.) with an 
 ### Getting-ready locations
 - **Bride** — Embassy Suites. Room has harbor views + good natural light — priority
   coverage location.
-- **Groom** — West Ashley, near Home Depot. ~15 min from the venue (vs. ~3 min from
-  Embassy Suites to the venue). Lower priority given no second shooter — cover the guys
-  "if we have time," otherwise groomsmen finish getting dressed (bowtie, etc.) at the
-  venue instead, where they're planning to meet up anyway.
+- **Groom & groomsmen** — getting ready and dressing (bowtie, etc.) all happens at the
+  venue itself. Simplest option given no second shooter — no travel needed to cover them.
 - **Two first looks**: dad/bride first look at Embassy Suites, then the couple's first
   look on the lawn out front of the venue.
 
@@ -54,8 +52,8 @@ of who's getting hair/makeup done (bride, both moms, bridesmaids, etc.) with an 
 
 ## Known constraints
 - No second shooter — getting-ready coverage for both sides can't happen simultaneously;
-  bride's side (Embassy Suites) is the priority, groom's side (West Ashley) is
-  time-permitting only, given the 15 min distance from the venue.
+  bride's side (Embassy Suites) is the priority; groom's side is covered at the venue,
+  so no separate travel/coverage block needed for it.
 - Couple has been told deliverables will be lighter than a two-shooter wedding.
 - Original ask included solo portraits of each of them (not just couple shots) at sunset.
 
@@ -66,9 +64,8 @@ of who's getting hair/makeup done (bride, both moms, bridesmaids, etc.) with an 
 | 2:00pm | Venue access — detail shots (rings, dress, invites, etc.) |
 | TBD | Bride getting ready candids — Embassy Suites |
 | TBD | Dad/bride first look — Embassy Suites |
-| TBD | Groom getting ready candids — West Ashley (only if time allows) |
 | Travel (~3 min) | Embassy Suites → venue |
-| TBD | Groomsmen finish dressing at venue (bowtie, etc.) if not covered earlier |
+| TBD | Groom & groomsmen getting ready/dressing candids — at venue |
 | TBD | Couple's first look — venue front lawn |
 | +20-30min | Couple portraits |
 | +20-30min | Bridal party portraits (full group, bridesmaids only, groomsmen only) |
