@@ -39,9 +39,8 @@ time isn't going to run over, since that's the single biggest risk to the whole 
 
 ## Confirmed so far
 - Venue access: 2:00pm
-- **Ceremony time conflict to resolve**: planner's doc has ceremony at 4:30pm (cocktail
-  hour starting 5:00pm), but Sarah's texts said ceremony at 5:00pm. Confirm which is
-  current before finalizing — this shifts everything downstream by 30 min.
+- **Ceremony: 4:30pm** (going with the planner's doc over Sarah's earlier 5:00pm text —
+  planner's version is the most current)
 - Wedding party: couple, 2 moms, 2 dads, 5 bridesmaids (one is Brian's sister), 6 groomsmen
 - Family formals = immediate family only; bridal party covered separately
 - Family/bridal party portraits happen after the first look, then everyone heads to the venue
@@ -90,11 +89,10 @@ it means pulling the couple away from their own dinner for 15-25 min.
   look on the lawn out front of the venue.
 
 ## Still need from Sarah / planner
-1. **Which ceremony time is current — 4:30pm or 5:00pm?**
-2. Preferred timing for the two first looks within the getting-ready window
-3. Who's the designated "corraller" for family formals (keeps groupings from dragging)
-4. Confirm the sunset-photo window (dinner, ~6:40-7:05pm) works for the couple/planner
-5. Family list for formals — Sarah said she'd send this over
+1. Preferred timing for the two first looks within the getting-ready window
+2. Who's the designated "corraller" for family formals (keeps groupings from dragging)
+3. Confirm the sunset-photo window (dinner, ~6:40-7:05pm) works for the couple/planner
+4. Family list for formals — Sarah said she'd send this over
 
 ## Known constraints
 - No second shooter — getting-ready coverage for both sides can't happen simultaneously;
@@ -103,7 +101,7 @@ it means pulling the couple away from their own dinner for 15-25 min.
 - Couple has been told deliverables will be lighter than a two-shooter wedding.
 - Original ask included solo portraits of each of them (not just couple shots) at sunset.
 
-## Draft timeline (ceremony time pending confirmation — shown as 5:00pm per Sarah's texts)
+## Draft timeline (ceremony locked at 4:30pm)
 
 | Time | Block |
 |---|---|
@@ -117,8 +115,8 @@ it means pulling the couple away from their own dinner for 15-25 min.
 | +20-30min | Bridal party portraits (full group, bridesmaids only, groomsmen only) |
 | +20-25min | Family formals (immediate family combos) |
 | +10-15min | Quick solos — bride and groom |
-| 4:30 or 5:00pm | Ceremony |
-| Cocktail hour | Candids + empty reception room shots (see shot list) |
+| 4:30pm | Ceremony |
+| 5:00pm | Cocktail hour — candids + empty reception room shots (see shot list) |
 | ~6:40-7:05pm | Step out with couple for sunset portraits (see golden-hour conflict above) |
 | Reception (ends 10:00pm) | Per program above — staying through send-off |
 
@@ -143,7 +141,6 @@ it means pulling the couple away from their own dinner for 15-25 min.
   program table, sunset portraits, open dancing/candids
 
 ## Next steps
-1. Confirm the ceremony time discrepancy (4:30 vs 5:00) with Sarah/planner.
-2. Confirm the dinner-window plan for sunset photos with Sarah and the planner.
-3. Get the family formals list Sarah's sending over.
-4. Lock real times for hair/makeup wrap and first-look timing.
+1. Confirm the dinner-window plan for sunset photos with Sarah and the planner.
+2. Get the family formals list Sarah's sending over.
+3. Lock real times for hair/makeup wrap and first-look timing.
