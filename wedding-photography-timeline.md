@@ -71,9 +71,9 @@ time isn't going to run over, since that's the single biggest risk to the whole 
 
 **Golden-hour conflict**: sunset (~6:53pm) falls in the middle of dinner service
 (6:35-7:30pm) — there's no open gap in the reception program for a sunset break. The
-realistic window is slipping out with the couple **during dinner, ~6:40-7:05pm**, after
+realistic window is slipping out with the couple **during dinner, ~6:40-7:00pm**, after
 they've been served and before speeches at 7:30. Flag this with Sarah/the planner —
-it means pulling the couple away from their own dinner for 15-25 min.
+it means pulling the couple away from their own dinner for 15-20 min.
 
 ### Notes from planner's doc
 - Bride is changing dress at some point (logistics/timing TBD — relevant for reception photos)
@@ -91,7 +91,7 @@ it means pulling the couple away from their own dinner for 15-25 min.
 ## Still need from Sarah / planner
 1. Preferred timing for the two first looks within the getting-ready window
 2. Who's the designated "corraller" for family formals (keeps groupings from dragging)
-3. Confirm the sunset-photo window (dinner, ~6:40-7:05pm) works for the couple/planner
+3. Confirm the sunset-photo window (dinner, ~6:40-7:00pm) works for the couple/planner
 4. Family list for formals — Sarah said she'd send this over
 
 ## Known constraints
@@ -117,7 +117,7 @@ it means pulling the couple away from their own dinner for 15-25 min.
 | +10-15min | Quick solos — bride and groom |
 | 4:30pm | Ceremony |
 | 5:00pm | Cocktail hour — candids + empty reception room shots (see shot list) |
-| ~6:40-7:05pm | Step out with couple for sunset portraits (see golden-hour conflict above) |
+| ~6:40-7:00pm | Step out with couple for sunset portraits (see golden-hour conflict above) |
 | Reception (ends 10:00pm) | Per program above — staying through send-off |
 
 ## Shot list
