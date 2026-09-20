@@ -1,5 +1,19 @@
 # Stabilized Revenue Projection — Seasonal Model
 
+> ## ⚠️ SUPERSEDED IN PART — two building rights, not three
+>
+> This document models **two rental units**. The property has **two building rights total**,
+> which means **one** rental unit alongside your residence.
+>
+> | | Modeled here | **Actual** |
+> |---|---:|---:|
+> | Rental revenue | $92,506 | **$58,741** |
+> | Gross revenue | $460,810 | **$427,045** |
+> | NOI | $99,541 | **$88,267** |
+> | DSCR on $800k | 1.60 | **1.42** |
+>
+> Every non-rental line below still stands. See `rental-strategy.md` for the corrected picture.
+
 **Revised to owner's inputs (Aug 2026):** ticket capped at **$65**, and modeled as a genuinely
 **seasonal** business rather than year-round.
 

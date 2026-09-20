@@ -1,5 +1,14 @@
 # Debt Coverage, Construction Timeline, and the Carry Gap
 
+> ## ⚠️ DSCR corrected — two building rights
+>
+> With one rental unit rather than two: **NOI $88,267, DSCR 1.42** on an $800k loan (not 1.60).
+> Still comfortably above the 1.20–1.25 lenders require. Your practical loan ceiling drops from
+> about $1.2M to roughly **$1.0M**.
+>
+> The phasing logic below is unchanged and gets *simpler* — one rental to build, not two, and
+> **$350,000 less construction capital.**
+
 Answers to two questions: how much of the mortgage the business covers, and how long the
 build takes — including the part that gets missed, which is what you pay while it happens.
 

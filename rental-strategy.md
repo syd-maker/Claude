@@ -5,89 +5,90 @@ compete without water access.
 
 ---
 
-## 1. Two detached homes beat a duplex — your instinct is right
+## 1. TWO rights — the configuration is settled for you
 
-Detached single-family vacation rentals generate a **25–30% revenue premium** over attached
-units. Privacy is the product. Shared walls, shared outdoor space, and hearing another party
-through the wall is exactly what people pay to escape.
+With two building rights, the arrangement isn't really a choice: **your residence + one detached
+rental home.** No duplex, no fourplex, no second rental.
 
-**And it uses the same three building rights.** Your residence + two detached homes = 3 units,
-identical to residence + duplex. No right purchased, no workforce path needed.
+That's not all bad. A single detached home earns the **25–30% whole-home premium** over a duplex
+half, so your one unit is the *best* kind of rental — private, whole-home, separately saleable.
 
-| | Duplex | **2 detached** |
+| | Modeled with 2 units | **Reality: 1 unit** |
 |---|---:|---:|
-| Rental revenue | $92,506 | **$117,483** |
-| Build cost | $900,000 | $1,050,000 |
-| Net income | $65,679 | **$83,413** |
-| Yield on capital | 7.3% | **7.9%** |
+| Rental revenue | $117,483 | **$58,741** |
+| Gross revenue | $485,787 | **$427,045** |
+| NOI | $125,274 | **$88,267** |
+| DSCR on $800k | 2.01 | **1.42** |
+| **Build capital needed** | $1,050,000 | **$700,000** |
 
-**Extra cost $150,000 · extra income $17,733/yr · payback 8.5 years.** Strong trade, and the
-two homes stay separately saleable later — far more liquid than a duplex.
+**The business still works.** DSCR 1.42 clears what lenders want, and you need **$350,000 less
+capital** — which, given that capital is your binding constraint, is genuine relief.
 
-**Do this.**
+### Where it actually hurts: the low season
 
----
+| | Jun–Oct revenue | Must-pay | Gap |
+|---|---:|---:|---:|
+| Two rental units | $81,082 | $84,694 | −$3,612 |
+| **One rental unit** | **$68,257** | $84,694 | **−$16,436** |
 
-## 2. Don't sell a building right to fund the pool
+**The second rental was carrying the dead months.** That gap roughly quadruples. Closing it
+means the amenity package below, shoulder-season birder programming, or simply a bigger
+off-season reserve — plan for all three.
 
-This is the one I'd push back on.
+### Live there, or rent both?
+Settled, and in favor of your plan:
 
-| Per dollar invested | Return |
+| | Net |
 |---|---:|
-| **A rental unit** ($42,000/yr on $350,000) | **12.0%** |
-| A pool ($10,763/yr on $177,703) | 6.1% |
+| **Live in one, rent one** | **$74,706** (rental $41,706 + avoided rent $33,000) |
+| Rent both, live elsewhere | $50,413 (rental $83,413 − rent paid $33,000) |
 
-Selling a $300,000 right to build a $178,000 pool trades your **best** asset for a
-**mediocre** one. The rental unit earns nearly double per dollar, appreciates, and the right
-itself can never be replaced — Marathon isn't issuing more.
+**Living on your own land is worth $24,294/year more** than maximizing rental income. Your
+original instinct was right.
 
-| | 2 detached + pool | 1 detached, right sold |
-|---|---:|---:|
-| Rental revenue | $140,979 | $70,490 |
-| Net capital needed | $1,227,703 | $577,703 |
-| **Net income** | **$94,175** | $44,128 |
+### Selling a building right is now off the table
+With two rights, selling one leaves you choosing between living there and having any rental
+income at all. **Don't.**
 
-Selling frees $650,000 but costs $50,048/year — you'd be **selling income at a 7.7% yield**
-to buy an asset returning 6.1%.
+### Is a third unit worth chasing?
 
-### The one case where selling a right *is* right
-If capital is so tight the project cannot happen at all, selling one right to make the other two
-units real is a good trade — that's the self-funding path in `financing-reality.md` §5.2.
+| Path | Capital | Income | Yield | Payback |
+|---|---:|---:|---:|---:|
+| Buy a transferable right (TBR) | $690,000 | $41,706 | 6.0% | 16.5 yr |
+| **Workforce/affordable allocation** | $350,000 | $25,858 | **7.4%** | 13.5 yr |
 
-**The distinction: sell a right to make the project possible. Never sell one to buy an amenity.**
+Neither is compelling, and both need capital you don't have. **The workforce path is the better
+of the two** — no right to purchase, and Marathon's affordable pool still has supply. Worth a
+conversation with Planning, but not worth delaying the project for.
 
 ---
 
-## 3. The finding that matters most: skip the pool, buy six small things
+## 2. Your one rental unit has to work twice as hard
+
+Because there's only one, **maximizing it matters far more than it did.**
 
 | Amenity | Cost | Rev lift | Net/yr | Payback |
 |---|---:|---:|---:|---:|
-| **Pet-friendly** (fencing, flooring) | $9,000 | 10% | $8,071 | **1.1 yr** |
-| **Hot tub** | $12,000 | 8% | $6,313 | **1.9 yr** |
-| Bikes, kayaks, games | $6,000 | 3% | $2,322 | 2.6 yr |
-| Outdoor shower | $4,500 | 2% | $1,533 | 2.9 yr |
-| Tiki hut / shaded outdoor living | $18,000 | 5% | $3,631 | 5.0 yr |
-| Outdoor kitchen + grill | $16,000 | 4% | $2,857 | 5.6 yr |
-| **All six** | **$65,500** | **32%** | **$24,727** | **2.6 yr** |
-| *Private pool* | *$177,703* | *20%* | *$10,763* | *16.5 yr* |
+| **Pet-friendly** (fencing, flooring) | $9,000 | 10% | $4,171 | **2.2 yr** |
+| **Hot tub** | $12,000 | 8% | $3,337 | **3.6 yr** |
+| Bikes, kayaks, games | $6,000 | 3% | $1,251 | 4.8 yr |
+| Outdoor shower | $4,500 | 2% | $834 | 5.4 yr |
+| Tiki hut / shaded outdoor living | $18,000 | 5% | $2,086 | 8.6 yr |
+| Outdoor kitchen + grill | $16,000 | 4% | $1,669 | 9.6 yr |
+| **All six** | **$65,500** | **32%** | **$13,346** | **4.9 yr** |
+| *Private pool* | *$177,703* | *20%* | *$2,423* | *73 yr* |
 
-> **$65,500 of small amenities beats a $177,703 pool on both revenue lift and payback.**
+> **With one rental unit, the pool stops making sense entirely** — 73-year payback, because the
+> cost is fixed but the revenue it lifts just halved.
+>
+> **Build the pool for yourself, if and when you want it, out of profit.** Not as an investment.
 
-**Pet-friendly is the single best return on this property** — 1.1 year payback. A fenced,
-tranquil garden is a dog's paradise, and most nice Keys rentals refuse pets. That's a real
-demand pocket sitting unserved, and your property is uniquely suited to it.
-
-**Build the pool later, from cash flow.** Config D (2 detached + pool) still has the highest net
-income at $94,175 — it's just the last thing you buy, not the first.
-
-### Order of operations
-1. Two detached homes
-2. The six cheap amenities
-3. Pool, years later, out of profit
+**Pet-friendly is still the best return on this property.** A fenced, tranquil garden is a dog's
+paradise and most nice Keys rentals refuse pets. Start there.
 
 ---
 
-## 4. Positioning: stop competing on water
+## 3. Positioning: stop competing on water
 
 You're right that you're missing on-water. **So stop trying to win that fight.**
 
@@ -124,7 +125,7 @@ you were running anyway.
 ### How to make the listing win
 - **Photograph the garden obsessively.** In a search page of identical dock photos, a jungle
   garden full of butterflies stops the scroll. Your photos *are* the marketing budget
-- **Name the properties.** "The Butterfly House" and "The Garden House," not "Unit A / Unit B"
+- **Name it.** "The Butterfly House," not "2BR Marathon Home"
 - **Lead the description with quiet**, not with square footage
 - **Put the painting session in the title** — that's the hook
 - **Ask every guest for a review mentioning the garden.** The algorithm reads text
@@ -133,13 +134,22 @@ you were running anyway.
 
 ## Bottom line
 
-**Build two detached homes, not a duplex.** Same three rights, +$17,733/yr, 8.5-year payback,
-and separately saleable later.
+**Two rights means residence + one detached rental home.** Build it detached and whole-home —
+that's the 25–30% premium tier, and it stays separately saleable.
 
-**Keep all three building rights.** They're your best-yielding asset and they cannot be replaced.
+**NOI $88,267, DSCR 1.42 — still financeable**, and you need $350,000 less construction capital
+than the three-right plan. The real cost is a low season that now runs a $16,400 gap instead of
+$3,600, so budget the off-season reserve accordingly.
 
-**Spend $65,500 on six small amenities before spending $177,703 on a pool** — more revenue lift,
-six times faster payback. Pet-friendly first.
+**Live in one and rent one.** Worth $24,294/year more than renting both and living elsewhere.
+
+**Don't sell a right, don't buy one.** Selling leaves you with nothing to rent; buying yields
+6.0% on money you don't have. If you ever want a third unit, the workforce allocation is the
+better door.
+
+**Skip the pool as an investment — with one rental it's a 73-year payback.** Spend $65,500 on
+six small amenities instead (32% lift, 4.9-year payback), starting with pet-friendly. Build the
+pool later for yourself, out of profit, because you want it.
 
 **Sell tranquility, not water.** You're not a worse waterfront rental. You're the only garden
 retreat in the Keys — and the only one that comes with a painting class.

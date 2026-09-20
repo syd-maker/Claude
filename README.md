@@ -23,6 +23,27 @@ on 74th Street, Marathon, FL.
 First draft, August 2026. Built from a verbal brief. Assumptions are tagged `[ASSUMPTION]`
 / `[A]` / `[U]` throughout and need replacing with real figures.
 
+## ⚠️ CORRECTION — TWO building rights, not three
+
+The owner confirmed the property carries **two** building rights. Earlier documents assumed
+three; treat any "3 rights" reference as superseded.
+
+**What two rights means:** your residence + **one** rental unit. Not a duplex, not a fourplex.
+
+| | 3 rights (assumed) | **2 rights (actual)** |
+|---|---:|---:|
+| Rental revenue | $117,483 | **$58,741** |
+| Gross revenue | $485,787 | **$427,045** |
+| NOI | $125,274 | **$88,267** |
+| DSCR on $800k | 2.01 | **1.42** |
+| Build capital needed | $1,050,000 | **$700,000** |
+
+**Still financeable** — DSCR 1.42 clears the 1.20–1.25 lenders want. And you need **$350,000
+less capital**, which materially helps the acquisition.
+
+The real cost is seasonal: the low-season gap widens from about $3,600 to **$16,400**. The
+second rental was carrying the dead months. See `rental-strategy.md`.
+
 ## Where this stands
 
 Two hard constraints, both confirmed:

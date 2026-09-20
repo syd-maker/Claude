@@ -79,7 +79,14 @@ and once it is gone it cannot be bought back at any reasonable price.
 
 This is the highest-leverage move available to you in this entire deal.
 
-### 2.3 Three rights is not a fourplex
+### 2.3 TWO rights — corrected
+
+> **Correction (Sept 2026): the property carries TWO building rights, not three.**
+> Two rights = **your residence + one rental unit.** The scenarios below assumed three and are
+> retained only for reference. Selling a right is now off the table entirely — it would leave
+> you choosing between living there and having rental income.
+
+### 2.3a Original three-right analysis (superseded)
 
 You mentioned a fourplex. Three building rights means **three dwelling units**. If you live
 in one, that leaves **two rental units**, not four. The unit math:
