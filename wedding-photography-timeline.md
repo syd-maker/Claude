@@ -105,20 +105,26 @@ it means pulling the couple away from their own dinner for 15-20 min.
 
 | Time | Block |
 |---|---|
-| 2:00pm | Venue access — detail + environmental shots (see shot list) |
+| 1:00pm | Photographer arrival — bride getting ready, Embassy Suites |
 | TBD | Bride getting ready candids — Embassy Suites |
 | TBD | Dad/bride first look — Embassy Suites |
 | Travel (~3 min) | Embassy Suites → venue |
+| 2:00pm | Venue access — detail + environmental shots (see shot list) |
 | TBD | Groom & groomsmen getting ready/dressing candids — at venue |
 | TBD | Couple's first look — venue front lawn |
 | +20-30min | Couple portraits |
-| +20-30min | Bridal party portraits (full group, bridesmaids only, groomsmen only) |
+| +20-30min | Bridal party portraits (full group, then bride+bridesmaids, then groom+groomsmen) |
 | +20-25min | Family formals (immediate family combos) |
 | +10-15min | Quick solos — bride and groom |
 | 4:30pm | Ceremony |
 | 5:00pm | Cocktail hour — candids + empty reception room shots (see shot list) |
 | ~6:40-7:00pm | Step out with couple for sunset portraits (see golden-hour conflict above) |
 | Reception (ends 10:00pm) | Per program above — staying through send-off |
+
+## Question for the planner
+When will the reception tables/room be fully set, and when will the ceremony space be
+set — need approx times to plan the environmental shots (empty room, ceremony space)
+around them.
 
 ## Shot list
 
