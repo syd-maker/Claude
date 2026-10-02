@@ -8,12 +8,12 @@ The June RSVP was a Formspree form on that site.
 2. Go to **Pages** (and check **Posts** too). Open the page with the June 4 RSVP.
    The form is usually in a **Custom HTML** block, or in a contact-form plugin set to Formspree.
 3. Find `formspree.io/f/XXXXXXX` in that block and copy the ID.
-4. **Pages > Add New** and title it "RSVP". Set the slug to `rsvp`.
+4. **Pages > Add New** and title it "RSVP". Set the slug to `oct14` (June used /june19).
 5. Add a **Custom HTML** block and paste in `oct14-rsvp-snippet.html`.
    Replace `YOUR_FORM_ID`, `[NEIGHBORHOOD]` and `[VENUE ADDRESS]`.
 6. **Preview**, then submit a test RSVP (first name "TEST"). Confirm the email arrives with the subject "New Kids Like Us RSVP — Oct 14"
    and the address shows after submit.
-7. Publish. Link in bio: **thekidslikeus.com/rsvp**
+7. Publish. Link in bio: **thekidslikeus.com/oct14**
 
 Leave the June page alone.
 
