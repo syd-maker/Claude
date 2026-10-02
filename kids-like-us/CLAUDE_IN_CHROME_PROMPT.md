@@ -119,7 +119,10 @@ networking for creators & entrepreneurs. The address is only shown to people aft
    Keep the dark green overlays.
 4. If the white text is hard to read, select the photo → Edit → Adjust → Brightness about −20.
 5. Change the two small bottom lines to the same font as "WED 10.14 · 6–10PM" so the whole poster uses one typeface.
-6. Download as PNG. Then Resize → Copy & resize to 1080×1350 for a feed post, fix anything that got cut off, and download that too.
+6. Match DJ Don's own branding on the "DJ DON" line. His flyers use a thin, high-contrast **italic serif**
+   (Didone style). In Canva use **Playfair Display Italic** (or Bodoni Moda Italic), white, same size as now.
+   If I give you a logo PNG from Don, use that instead of the text.
+7. Download as PNG. Then Resize → Copy & resize to 1080×1350 for a feed post, fix anything that got cut off, and download that too.
 
 ## Done when
 - thekidslikeus.com/oct14 is live and the test RSVP showed up in my email (subject "New Kids Like Us RSVP — Oct 14")
