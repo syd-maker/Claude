@@ -10,7 +10,10 @@
   :root { --green: #283d3b; --ink: #ffffff; --muted: rgba(255,255,255,.75); --line: rgba(255,255,255,.35); }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
-  body { margin: 0; min-height: 100vh; background: var(--green); color: var(--ink); font-family: Poppins, system-ui, sans-serif; }
+  body { margin: 0; min-height: 100vh; color: var(--ink); font-family: Poppins, system-ui, sans-serif;
+    background: linear-gradient(rgba(20,32,31,.78), rgba(20,32,31,.92)), url("venue.webp") center / cover fixed, var(--green); }
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 0 0 24px; }
+  .gallery img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; display: block; }
   main { max-width: 520px; margin: 0 auto; padding: 40px 16px 64px; }
   .handle { text-align: center; font-size: 13px; letter-spacing: .2em; color: var(--muted); margin: 0 0 16px; }
   h1 { text-align: center; font-weight: 800; font-size: 44px; line-height: 1; margin: 0; letter-spacing: -.01em; }
@@ -40,6 +43,12 @@
     <span>6–10PM</span><span>NETWORKING / GAMES</span>
     <span>UPTOWN MPLS</span><span>PHOTO WALL</span>
     <span>FREE ENTRY</span><span>MERCH SAMPLES</span>
+  </div>
+
+  <div class="gallery">
+    <img src="pic1.webp" alt="Kids Like Us meetup" loading="lazy" onerror="this.remove()">
+    <img src="pic2.webp" alt="Kids Like Us meetup" loading="lazy" onerror="this.remove()">
+    <img src="pic3.webp" alt="Kids Like Us meetup" loading="lazy" onerror="this.remove()">
   </div>
 
   <form id="rsvp" action="https://formspree.io/f/meewrgbb" method="POST">
