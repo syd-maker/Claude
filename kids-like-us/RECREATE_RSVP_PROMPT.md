@@ -1,50 +1,31 @@
-# Prompt: recreate the June RSVP for Oct 14 (run in Claude Code on Syd's computer)
+# Recreate the June RSVP for Oct 14 (WordPress)
 
-Copy everything below the line into Claude Code, run from any folder on the computer
-that is logged in to Shopify and Formspree.
+thekidslikeus.com resolves to 162.241.218.121, a Bluehost/HostGator-range IP, so the site is WordPress on shared hosting.
+The June RSVP was a Formspree form on that site.
 
----
+## Manual (about 10 min, no code tools needed)
+1. Log in at **thekidslikeus.com/wp-admin** (or through the Bluehost dashboard > WordPress > Log in).
+2. Go to **Pages** (and check **Posts** too). Open the page with the June 4 RSVP.
+   The form is usually in a **Custom HTML** block, or in a contact-form plugin set to Formspree.
+3. Find `formspree.io/f/XXXXXXX` in that block and copy the ID.
+4. **Pages > Add New** and title it "RSVP". Set the slug to `rsvp`.
+5. Add a **Custom HTML** block and paste in `oct14-rsvp-snippet.html`.
+   Replace `YOUR_FORM_ID`, `[NEIGHBORHOOD]` and `[VENUE ADDRESS]`.
+6. **Preview**, then submit a test RSVP (first name "TEST"). Confirm the email arrives with the subject "New Kids Like Us RSVP — Oct 14"
+   and the address shows after submit.
+7. Publish. Link in bio: **thekidslikeus.com/rsvp**
 
-You are setting up the RSVP for the Kids Like Us event on **Wed Oct 14, 6–10 PM**.
-Duplicate exactly how the **June 4 Meetup RSVP** worked, then update it. Don't guess. Look first.
+Leave the June page alone.
 
-## What we know about the June setup
-- The form was on **thekidslikeus.com** (Shopify store "THE KIDS LIKE US").
-- It posted to **Formspree**. Each RSVP was emailed to syd@ssslighthouse.com with the subject "New Kids Like Us RSVP".
-- Fields: `first_name`, `_replyto` (email), `instagram_handle`, `dream`.
-- 11 submissions came in June 2–4.
+## If running it with Claude Code on your computer
+Paste this:
 
-## Steps
-1. **Find the June form.**
-   - Install the Shopify CLI if it's missing (`npm i -g @shopify/cli`). Then `shopify theme list --store thekidslikeus.myshopify.com`
-     (if that store handle is wrong, ask me), and `shopify theme pull --live` into `./klu-theme`.
-   - `grep -rn "formspree" ./klu-theme`. Report the file, the section, and the `formspree.io/f/<ID>` value.
-   - If nothing turns up, the form may live outside the theme (Shopify page content, or another host).
-     Check Online Store > Pages in the admin, and tell me what you find before going on.
-2. **Duplicate it.** Copy the June section to a new section/block named `rsvp-oct14`. Keep the same Formspree ID
-   (one inbox; the `_subject` and `event` fields keep the two events apart).
-   Use `kids-like-us/oct14-rsvp-snippet.html` from github.com/syd-maker/Claude (branch `kids-like-us-oct14-rsvp`)
-   as the content. It already has the right fields, the copy, an AJAX submit, and the address-after-RSVP reveal.
-   Match the June section's fonts/colors so it looks like the same site.
-3. **Fill placeholders.** `YOUR_FORM_ID` comes from step 1. Ask me for `[VENUE ADDRESS]` and `[NEIGHBORHOOD]`.
-   Do not invent them.
-4. **Preview, don't publish.** Run `shopify theme push --unpublished` and give me the preview link.
-5. **Test.** Submit one test RSVP on the preview (first name "TEST"). Confirm the email arrives with the subject
-   "New Kids Like Us RSVP — Oct 14", and that the address shows after submit.
-6. **Stop and ask me** before publishing the theme live. After I say go, publish and confirm
-   `thekidslikeus.com/#rsvp` scrolls to the form.
+> Help me duplicate the Kids Like Us June 4 RSVP for Oct 14 on my WordPress site (thekidslikeus.com).
+> Walk me through wp-admin step by step using `kids-like-us/RECREATE_RSVP_PROMPT.md` and
+> `kids-like-us/oct14-rsvp-snippet.html` from github.com/syd-maker/Claude (branch `kids-like-us-oct14-rsvp`).
+> Ask me for the Formspree ID, neighborhood, and venue address; don't invent them. Don't publish until I say go.
+> Event: Wed Oct 14, 6–10 PM. DJ Don, art by ARTCOUX, free food, photo wall, free merch samples,
+> networking for creators & entrepreneurs. Address only after RSVP.
 
-## Event details (for any copy you touch)
-- Wed Oct 14 · 6–10 PM
-- DJ Don on sound
-- Art by ARTCOUX
-- Free food
-- Photo wall
-- Free merch samples
-- Networking for creators & entrepreneurs
-- Address only after RSVP
-
-## Don'ts
-- Don't delete or edit the June section; duplicate it.
-- Don't publish the live theme without my OK.
-- Don't change the Formspree notification email.
+## Note
+This repo is public. Don't commit the real venue address here; put it only into WordPress.
