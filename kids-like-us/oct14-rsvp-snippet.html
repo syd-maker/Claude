@@ -1,0 +1,91 @@
+<!--
+  Kids Like Us — Oct 14 RSVP (Formspree)
+  Paste into WordPress: Pages > Add New > Custom HTML block
+  Replace:
+    YOUR_FORM_ID  -> ID from the June form (formspree.io/f/XXXXXXX) or Formspree dashboard > Integration
+    [VENUE ADDRESS] -> full address (only shown AFTER someone RSVPs)
+    [NEIGHBORHOOD]  -> public area name, e.g. "Northeast Minneapolis"
+  Note: the address lives in the page source, so a determined person could find it.
+  Fine for a free community night; send the exact address again in the Oct 13 reminder.
+-->
+<section id="rsvp" class="klu-rsvp">
+  <h2>RSVP · Wed Oct 14 · 6–10 PM</h2>
+  <p>
+    🎧 DJ Don · 🎨 Art by ARTCOUX · 🍽 Free food<br>
+    📸 Photo wall · 🧢 Free merch samples · 🤝 Networking for creators &amp; entrepreneurs<br>
+    📍 [NEIGHBORHOOD] — address sent after you RSVP
+  </p>
+
+  <form id="klu-rsvp-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="hidden" name="_subject" value="New Kids Like Us RSVP — Oct 14">
+    <input type="hidden" name="event" value="Oct 14 Night">
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+    <label>First name
+      <input type="text" name="first_name" required>
+    </label>
+    <label>Email
+      <input type="email" name="_replyto" required>
+    </label>
+    <label>Instagram
+      <input type="text" name="instagram_handle" placeholder="@">
+    </label>
+    <label>Bringing anyone?
+      <select name="plus_ones">
+        <option value="0">Just me</option>
+        <option value="1">+1</option>
+        <option value="2">+2</option>
+      </select>
+    </label>
+    <label>What are you building / dreaming about?
+      <textarea name="dream" rows="3"></textarea>
+    </label>
+
+    <button type="submit">I'm in</button>
+    <p id="klu-rsvp-error" class="klu-msg" hidden>Something went wrong. Try again or DM @thekidslikeus.</p>
+  </form>
+
+  <div id="klu-rsvp-done" class="klu-msg" hidden>
+    <h3>You're in. 🖤</h3>
+    <p><strong>Wed Oct 14 · 6–10 PM</strong><br>[VENUE ADDRESS]</p>
+    <p>Screenshot this. We'll send a reminder the day before.</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var form = document.getElementById('klu-rsvp-form');
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = form.querySelector('button');
+      btn.disabled = true;
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' }
+      }).then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        form.hidden = true;
+        document.getElementById('klu-rsvp-done').hidden = false;
+      }).catch(function () {
+        document.getElementById('klu-rsvp-error').hidden = false;
+        btn.disabled = false;
+      });
+    });
+  })();
+</script>
+
+<style>
+  .klu-rsvp { max-width: 520px; margin: 48px auto; padding: 0 16px; }
+  .klu-rsvp form { display: grid; gap: 14px; }
+  .klu-rsvp label { display: grid; gap: 6px; font-weight: 600; }
+  .klu-rsvp input, .klu-rsvp select, .klu-rsvp textarea {
+    font: inherit; padding: 12px; border: 1px solid currentColor; border-radius: 6px; background: transparent; color: inherit;
+  }
+  .klu-rsvp button {
+    font: inherit; font-weight: 700; padding: 14px; border: 0; border-radius: 6px;
+    background: #000; color: #fff; cursor: pointer;
+  }
+  .klu-rsvp button:disabled { opacity: .5; }
+</style>
