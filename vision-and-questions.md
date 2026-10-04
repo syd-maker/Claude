@@ -30,6 +30,50 @@ corridors opening into sunny, flower-packed clearings. The most peaceful corner 
 - "What have you planted that thrived? What died?"
 - "Is there anything out here you'd want to see kept?"
 
+### The yard questions, in priority order
+
+**The wildlife — ask this first**
+1. **"Where do you see the most birds and butterflies?"** — wherever they already gather,
+   something is working. That becomes the heart of the garden
+2. "What kinds do you get? Any time of year they really show up?"
+3. "Do you feed the birds, or do they just come?"
+
+**Water — the one people forget**
+4. **"Is there a well, or any irrigation out here?"** — Keys potable water is piped from the
+   mainland and expensive. Irrigating a big garden on city water is a real operating cost. A
+   well, even brackish and non-potable, is worth money
+5. "Is there any cistern or rainwater collection?"
+6. "Where does water stand after a hard rain?"
+
+**Soil — the Keys-specific one**
+7. **"How deep is the soil before you hit rock?"** — the Keys are coral caprock, often under
+   very thin soil. This decides whether you plant normally, auger holes into rock, build up
+   beds, or import soil by the truckload. **It's one of the biggest cost variables in the whole
+   garden and nobody thinks to ask it**
+8. "Has anyone ever brought in fill or topsoil?"
+
+**Sun and wind**
+9. "Which parts get brutal afternoon sun?"
+10. "Where's the breeze? Any corner that's always still?"
+
+**What grows**
+11. **"What have you planted that thrived? What died?"** — free, proven data on this exact soil
+12. "Any of these trees ever been trimmed hard or topped?"
+13. "Has anything been removed over the years?"
+
+**Pests and the chickens**
+14. "How bad are the fire ants, and where are they worst?"
+15. "What's the mosquito situation? Any season that's rough?"
+16. "How long have the chickens been here, and where did the feed get stored?"
+
+**The infrastructure that eats garden**
+17. **"Sewer or septic? If septic, where's the drainfield?"** — you can't plant trees over it,
+    build on it, or park on it
+18. "Any buried lines, old irrigation, anything I should know is under there?"
+
+**The relationship question**
+19. **"Is there anything out here you'd want to see kept?"**
+
 ### Your line
 > *"My goal is to optimize the garden so birds and butterflies come. I want to find what's
 > already working here and build around it."*
