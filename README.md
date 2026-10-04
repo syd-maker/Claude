@@ -5,6 +5,7 @@ on 74th Street, Marathon, FL.
 
 | Document | Purpose |
 |---|---|
+| [`site-notes-visit1.md`](site-notes-visit1.md) | **🟢 VISIT 1 FINDINGS** — it's a 50-year-old botanical garden, not a derelict lot |
 | [`vision-and-questions.md`](vision-and-questions.md) | **🔴 THE STRUCTURE** — six areas: garden, buildings, living, sharing, the seller, essentials |
 | [`meeting-brief.md`](meeting-brief.md) | **🔴 START HERE** — the vision, what to ask the owners, what not to say |
 | [`business-plan.md`](business-plan.md) | The plan — concept, regulatory reality, revenue model, market, phasing, risks |
