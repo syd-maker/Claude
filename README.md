@@ -5,6 +5,7 @@ on 74th Street, Marathon, FL.
 
 | Document | Purpose |
 |---|---|
+| [`vision-and-questions.md`](vision-and-questions.md) | **🔴 THE STRUCTURE** — six areas: garden, buildings, living, sharing, the seller, essentials |
 | [`meeting-brief.md`](meeting-brief.md) | **🔴 START HERE** — the vision, what to ask the owners, what not to say |
 | [`business-plan.md`](business-plan.md) | The plan — concept, regulatory reality, revenue model, market, phasing, risks |
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
