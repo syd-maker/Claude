@@ -271,3 +271,181 @@ plants in the sunny areas, manage the iguanas, contain the chickens.
 That is a **much smaller, faster, cheaper project** than building a garden from nothing. And the
 parents who built it would be getting exactly the steward they'd want — which is the best thing
 you can possibly say to the sellers.
+
+---
+---
+
+# 📋 NOTES — SECOND SET
+
+---
+
+# 🚨 THE BIGGEST FINDING SO FAR
+
+## One structure is a true duplex — two complete mirrored units
+
+Your notes: *"living room up front and kitchen... bathroom... it's the same over in the other
+side of duplex but reverse."*
+
+> ### Two complete, mirror-image units, each with its own kitchen, bathroom, and living room.
+
+**Why this matters enormously:** a **separate kitchen plus a separate bathroom** is the classic
+test of a lawfully established **dwelling unit**. A duplex with two full kitchens is strong
+evidence of **two dwelling units in that building alone** — and there's a second house on the
+property besides.
+
+**That's potentially three dwelling units, not two.**
+
+You were told two building rights. **This is worth challenging.** At roughly $300,000 per right
+in a market with none left to issue, a third right is the single most valuable thing that could
+come out of this whole process.
+
+### What to do
+1. **Photograph both kitchens and both bathrooms in detail** — fixtures, plumbing, meter bases
+2. **Ask: "Was the duplex ever rented as two separate units? Separate tenants, separate leases?"**
+   Rental history is evidence
+3. **Ask: "Were there ever two electric meters on the duplex?"**
+4. Take this to **Marathon Planning** with photos when you request the exemption letter — ask
+   specifically: *"Does this structure carry two dwelling-unit exemptions?"*
+
+⚠️ Caution: you noted *"power line to this house, and jump off this one to that"* and asked
+*"is there any electric coming in here?"* — a **single service** is the counter-argument.
+Worth knowing which way it cuts before you push.
+
+---
+
+# 💧 PONDS — construction and the restoration recipe
+
+### How they're built
+**Coral rock laid up, then epoxy-coated.** Roughly **1–2 feet deep with one deeper spot.** Not a
+solid uniform bottom.
+
+### The seal is holding
+You asked and they confirmed: **the seal is holding good** on at least one pond. That's real
+money saved.
+
+### 🔧 The restoration recipe they gave you — write this down
+> **Acid wash with muriatic acid → pressure wash → re-coat with epoxy directly over the old
+> surface.**
+
+That's a **cheap, DIY-able pond refurbishment path** — no liner, no excavation, no contractor.
+Compared to the liner struggles they described (couldn't get one piece to fit around the
+stanchions), **this is the better answer and they just handed it to you.**
+
+*Safety note: muriatic acid is hazardous — eye protection, gloves, ventilation, and never near
+the fish or plants you're keeping.*
+
+### Your ideas from this pass
+- **Move the bridge** — you called it a "sick bridge." It's movable, so place it where it does
+  the most work
+- **Put a slide from the bridge** `[?]` — fun, but note: anything people slide into becomes a
+  water-safety question, and if guests ever use it, a liability and possibly a pool-code one.
+  Fine as a private feature, worth thinking twice about as a public one
+
+---
+
+# ✅ UTILITIES — partially answered
+
+| | Status |
+|---|---|
+| **Water** | ✅ **CITY WATER CONFIRMED.** All PVC from the structures out to the road |
+| **Sewer or septic** | ❓ **STILL UNANSWERED — ask directly next time** |
+| Electric | One service with a jumper to the second structure `[?]`. Confirm meter count |
+
+City water is good news for cost and simplicity. **But "city water" is not "city sewer"** — you
+still need that answer, and it's the one that decides whether a coffee cart is ever easy.
+
+---
+
+# 🌿 MORE PLANTS
+
+| Plant | Notes |
+|---|---|
+| **Royal palms** `[?]` (*"royal pencil as, two of them"*) | Two of them. Big, beautiful, high value if that's the ID |
+| **Leather fern** | Native Florida fern. Great in shade — keep |
+| **Queen palm** | Common, fine |
+| **Sago palm** `[?]` (*"psygo palms"*) | ⚠️ **If these are sagos, they are highly toxic** to dogs and children. Worth knowing before guests or pets are on site |
+| **Third ficus** | 🪓 **Another one to remove** — that's three now |
+| **Leftover palm tree** | Still to decide |
+| **A tree that outgrew its planter box** | Roots escaped. Decide: free it, or remove |
+
+---
+
+# 🏗️ MORE STRUCTURES
+
+- **Trellis — used for propagation.** ⭐ **Keep this.** A propagation structure is exactly what
+  you want for growing your own host and nectar plants cheaply instead of buying them in
+- **Shed + floor, roughly 20 ft × 20 ft** `[?]` — *"114 × 20 in the front"* `[?]` needs
+  clarifying, that figure doesn't parse yet
+- **Awning over the tractor** — is there a tractor, and does it convey?
+- **Tool shed used to sit over the pond** — gone now, but the footing may remain
+- **Hot tub + machinery**, with the old road running right up to it, *"before the dip"*
+- **The cement blocks were all laid by her father** `[?]` — worth knowing, and worth mentioning
+  to them that you'd keep his work
+
+---
+
+# 🦋 THE ANSWER TO YOUR MOST IMPORTANT QUESTION
+
+> ## *"Butterflies come in. Depends on the time of year. Depends on the plants."*
+
+**This is the single best piece of news from the whole visit.** Read what she actually told you:
+
+**The butterflies are plant-limited, not location-limited.**
+
+The site works. The habitat works. They come. The only variable is **what's in bloom when** — and
+that is entirely within your control.
+
+### The design lever this hands you
+A designed butterfly garden solves exactly this problem with **succession of bloom** — layering
+plants so something is always flowering across the whole year. You're not trying to attract
+butterflies to a place they don't visit. **You're extending a season that already exists.**
+
+That is a far easier problem, and it's the thing a good native-plant designer does best.
+
+**Also confirmed:** a **cardinal** she's had repeated interaction with. Resident birds, not just
+passers-by.
+
+---
+
+# ⭐ *"People used to come through and love the garden"*
+
+**Follow this hard on the next visit.** It's both a validation and possibly a legal asset.
+
+**Ask:**
+- "Who used to come through? How did they hear about it?"
+- "Was it ever open to the public, or advertised?"
+- "Did you ever charge admission, or sell plants to visitors?"
+- "Was there ever a sign out front?"
+- "Did the city ever know about it?"
+
+If the garden was ever **openly visited or operated commercially**, that strengthens any
+**nonconforming use** argument considerably — and it's also the most beautiful possible proof
+that your vision is not new. **You'd be restoring something that already was.**
+
+---
+
+# 🐛 PESTS — clarified
+
+> *"Anything really annoying weeds? Not really — but ants are the problem."* `[?]`
+
+**Weeds are not a major issue.** Fifty years of dense planting suppresses them, and that's
+another hidden asset.
+
+**Ants are the confirmed problem** — consistent with the fire ants that attacked you. Targeted
+mound baits only, never broadcast spray.
+
+---
+
+# 🔴 UPDATED PRIORITY QUESTIONS
+
+1. **SEWER OR SEPTIC?** — still the biggest open question
+2. **"Does the duplex carry two dwelling-unit exemptions?"** — potentially worth $300,000
+3. **"Was the duplex ever rented as two separate units?"**
+4. **"Were there ever two electric meters?"**
+5. **"Was the plant business or the garden visiting ever permitted or advertised?"**
+6. **Is there a mortgage on the property?**
+7. Positively identify the **lignum vitae**
+8. Any **mangroves** or tidal connection at the ponds?
+9. Is there a **well or irrigation**, or is the garden on city water? *(On city water, irrigating
+   this much garden is a real monthly cost — worth knowing)*
+10. Does the **tractor** convey?
