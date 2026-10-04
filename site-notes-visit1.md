@@ -449,3 +449,192 @@ mound baits only, never broadcast spray.
 9. Is there a **well or irrigation**, or is the garden on city water? *(On city water, irrigating
    this much garden is a real monthly cost — worth knowing)*
 10. Does the **tractor** convey?
+
+---
+---
+
+# 📋 NOTES — THIRD SET (deal territory)
+
+---
+
+# 🔴 #1 — THERE IS A PAYING TENANT WHO WANTS TO STAY
+
+> *"The guy in the apartment doesn't want to leave and will pay more."*
+
+**This may be the most consequential thing learned all day.** Three separate reasons:
+
+### 1. It contradicts "the buildings aren't livable"
+Someone is **living in one right now.** At least one unit is habitable and occupied. The whole
+plan was built on "replace everything" — **that premise just changed.**
+
+### 2. It's the strongest possible evidence of a dwelling unit
+A unit with a **paying tenant** is a lawfully established, actively used dwelling unit. For the
+building-rights question, this is better evidence than a kitchen or a meter. **Bring it to
+Planning.**
+
+### 3. Income from day one, not from year three
+Every projection so far assumed **zero property income until construction finished.** A sitting
+tenant who wants to stay and pay more means rental income **from the closing date** — which
+changes the carry math, the DSCR, and possibly whether the property is financeable at all.
+
+### Actions
+- **Get the lease in writing** — term, rent, deposit, condition. Florida: **existing leases
+  survive a sale.** You'd inherit the tenancy and its terms, good or bad
+- **"How much is he paying now, and what did he offer?"**
+- **"Is he on a lease or month-to-month?"**
+- **"Has he ever been late? Any issues?"**
+- **Does the rent get prorated at closing? Does the deposit transfer?**
+- ⚠️ **An occupied unit also means you cannot freely renovate it.** That's a constraint as well
+  as an asset
+
+---
+
+# 🔴 #2 — THEY HAD A PERMIT TO SELL
+
+> *"Had permit to sell there."* · *"Business street and they had people come in."*
+
+**This is the nonconforming-use answer you were chasing.** Now get the specifics:
+
+- **"What permit exactly, and who issued it — the city, or the state?"**
+- **"Do you still have the paperwork?"**
+- **"Is it still active, or did it lapse? When?"**
+- **"Did the city ever approve the greenhouse or the retail?"**
+
+⚠️ **Lapsed matters.** Nonconforming use rights are commonly lost after a period of
+discontinuance. If the permit lapsed years ago the right may be gone — but if it's documented
+and recent, it is **extremely valuable**, because it's permission the current zoning might not
+grant you.
+
+**Take the paperwork to a Keys land-use attorney, not to the city, first.**
+
+---
+
+# 🏠 #3 — THE ROOF WAS BUILT TO BUILD ON TOP OF
+
+> *"The roof was initially flat, made to be built on top of. But now it's slightly pitched."*
+> *"Maybe we build on top and slowly gut the bottom."*
+
+**Your instinct here is genuinely clever** — and it runs straight into one rule.
+
+### The problem
+Adding a floor is an "improvement." If its cost reaches **50% of the structure's market value
+before construction**, it's a **substantial improvement** — and then:
+
+> **"When the proposed substantial improvement is a full or partial second floor, the entire
+> structure must be elevated or floodproofed."**
+
+In **A zones**, both the existing building and the addition must be brought into compliance.
+In **V zones** it's worse — the existing structure must *always* be elevated, because the
+unelevated lower floor obstructs storm surge.
+
+Florida Building Code requires finished floor at **BFE + 1 foot minimum.**
+
+### And the phasing trick probably doesn't work
+*"Slowly gut the bottom"* is the classic attempt to stay under 50% by doing work in stages.
+**Many jurisdictions track cumulative improvements over time** specifically to prevent that.
+Assume Marathon does until told otherwise.
+
+### But there's a real possibility worth chasing
+Building **up** puts your living space above BFE — which is **exactly what the flood rules
+want.** A compliant outcome could be: new upper floor as the dwelling, ground floor converted
+to non-habitable wet-floodproofed parking and storage. That's the standard Keys answer, reached
+by a cheaper route than demolition.
+
+### 🔴 The one call that settles it
+**Marathon's floodplain manager.** Ask:
+1. What flood zone is this parcel — A or V?
+2. What's the BFE?
+3. Does the city track **cumulative** substantial improvement?
+4. Would a vertical addition with the ground floor converted to non-habitable storage comply?
+
+**That single conversation is worth six figures either way.** Make it before you make an offer,
+and bring the parcel number.
+
+---
+
+# 💰 #4 — THE NURSERY IS A REAL REVENUE LINE
+
+> *"Nursery license — if you posted it on Facebook you could get $300 a day."*
+> *"He could connect us to the nursery people up north in Homestead."*
+
+$300/day is his number, not a verified one — but **Homestead is the nursery hub of South
+Florida**, and that connection is a genuine asset. Taken at face value even a few days a week
+is meaningful money with near-zero marginal cost, since **the plants are already growing here.**
+
+### The licensing is remarkably cheap
+| | |
+|---|---|
+| **Certificate of Nursery Registration** (growing and selling your own stock) | — |
+| **Certificate of Stock Dealer Registration** (buying for resale) | **$25/location** under 5,000 plants; **$69** over |
+| Agricultural **dealer** license (if brokering volume) | $170–300 depending on bond |
+| **Security bond** (dealer only) | $5,000 minimum, up to $100,000 by volume |
+| Their liability insurance | **$1,700/year** |
+
+> **A nursery registration costs about $25–69 a year.** That is nothing. And it's a revenue line
+> that needs **no construction, no zoning fight, no food permits, and no restrooms** — it
+> monetizes the garden exactly as it already exists.
+
+**This may be the best first business on the property**, well before any coffee cart. The display
+garden sold plants for fifty years. You'd be resuming it.
+
+*Note: their $1,700 insurance figure is for a nursery use, not a public attraction. Don't anchor
+your later insurance estimates on it.*
+
+---
+
+# ⚠️ #5 — DO NOT OFFER LANDSCAPING SERVICES
+
+> *"Just don't mention landscaping help. Don't want a contractor's license. Liability insurance
+> could increase price."*
+
+Good advice, and it **changes your barter plan.** Selling plants is one thing; **installing**
+landscaping for others is contracting — which means a **contractor's license** and a materially
+higher insurance premium.
+
+**The line to stay on the right side of:** sell plants, give advice, host people. **Don't install
+anything on anyone else's property for money.**
+
+Your landscaper barter still works — **you're the client, not the contractor.** Just don't drift
+into offering services.
+
+---
+
+# 💵 #6 — DEAL TERMS EMERGING
+
+| Signal | Reading |
+|---|---|
+| *"They wanted half. No way."* | Sellers opened asking **~50% down.** Rejected. Negotiation is live |
+| *"130,000 into your pocket"* | ❓ Ambiguous — likely **cash the sellers need at closing.** Clarify whose pocket and what for |
+| *"Number they need for monthly payments"* | 🎯 **This is the question that closes the deal.** Find their required monthly figure |
+| *"Chris said he would write it up"* | He's drafting the offer |
+
+### The negotiation insight
+They opened at half down and you can't do that. But **they named a monthly payment need** —
+which tells you what they actually want is **income, not a lump sum.** That is exactly the
+seller-financing conversation, and they've already walked toward it themselves.
+
+**So the question to get answered is: "What monthly number works for you?"** Then structure
+backwards from it.
+
+⚠️ **Don't commit to $130,000 or any figure until you know the purchase price, the rights count,
+and the flood answer.** Those three move the value enormously.
+
+---
+
+# 📝 ALSO NOTED
+- **AC is a wall unit** in the living room — no central air. Cheap to live with, cheap to replace
+- **Eden Gardens** — named by his mother, for the **statue of Eve with the apple** on site
+- The garden was a **display garden**: mature specimens shown so collectors could buy the small
+  versions
+- *"This place was set up for plant collectors — they'd find a place to put it, no rhyme or
+  reason"* — which is why it reads as a jungle
+
+---
+
+# 🔴 THE FIVE THINGS TO DO NEXT
+
+1. **Get the tenant's lease and rent in writing** — it's income and it's evidence
+2. **Get the sell-permit paperwork** — and find out if it lapsed
+3. **Call Marathon's floodplain manager** about the vertical-addition question
+4. **Ask what monthly payment they need** — that's the deal
+5. **Still unanswered: how many building rights, and is there a mortgage?**
