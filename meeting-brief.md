@@ -264,6 +264,141 @@ sit. That's where the garden begins, and you build outward from it.
 
 ---
 
+## 11. The regulation ladder — where the cliffs are
+
+You don't have to decide about the coffee cart today. **You do have to avoid foreclosing it.**
+Here's what each step up actually costs, because the jumps are not gradual.
+
+| Rung | What it is | What it triggers |
+|---|---|---|
+| **1** | Private garden. You live there, friends visit | **Nothing.** No permits, no license |
+| **2** | Open by appointment, free or donation | Liability insurance. Basically nothing else |
+| **3** | **Money changes hands** — ticketed garden admission | Business tax receipt, zoning use check, commercial liability, ADA path of travel, parking count |
+| **4** | **Coffee cart, walk-up only, no seating** | DBPR mobile food license (~$347/yr), **commissary agreement**, certified food manager, potable water + wastewater |
+| **5** | **Coffee + seating** — people sit and stay | **Customer restrooms**, more parking, full ADA, **increased septic flow** |
+| **6** | Permanent café structure | Building permit, non-residential floor area allocation, grease, full commercial build |
+
+### The three cliffs that matter
+
+**Cliff 1 — money changes hands (rung 2→3).** The moment you charge anything, you're a
+commercial use on a commercial street and the zoning question becomes real. Parking counts and
+ADA path of travel start applying. This is cheap to plan for and expensive to retrofit.
+
+**Cliff 2 — the commissary rule (rung 3→4).** Florida mobile food carts **must operate from an
+approved commissary** — a licensed kitchen for water refill, wastewater disposal, cleaning, and
+overnight storage. You can't just plug a cart in behind the house.
+*The good news:* you can contract with an existing licensed commissary in Marathon rather than
+building one. **That's the cheap path, and it's how you'd realistically start.**
+
+**Cliff 3 — seating (rung 4→5). This is the expensive one.**
+> Walk-up coffee and *sit and enjoy the butterflies* are different regulatory animals. The
+> moment you provide seating you're a food service establishment with seats, which means
+> **customer restrooms**, more parking, full ADA, and more wastewater flow.
+>
+> And seating is exactly what you described wanting. So this cliff is the one to plan around.
+
+---
+
+## 12. 🔴 Sewer or septic — the question that decides everything
+
+**If the property is on septic, rungs 4–6 get dramatically harder and more expensive.**
+
+Adding food service changes the sewage flow and the wastewater characteristics, which under
+Florida rules **requires the septic system to be re-permitted and may require it to be upgraded
+to current standards.** Commercial flows at or above 1,000 gallons/day need construction plans
+from a licensed Florida engineer. For food service, kitchen wastewater is normally calculated
+at 66% of total establishment flow.
+
+Translation: **a septic system sized for a house may need replacing to serve a coffee cart with
+seating** — and a drainfield also eats garden you can't build on, plant trees over, or park on.
+
+| | Coffee cart feasibility |
+|---|---|
+| **Central sewer** | Straightforward. Connection fee, then flow is the utility's problem |
+| **Septic** | Re-permit required, possible full upgrade, engineer involved, real money |
+
+**Ask today. Then look for the tank lid and cleanouts and photograph them.**
+
+---
+
+## 13. The question nobody thinks to ask
+
+> ### "Has there ever been a business run on this property?"
+
+If any commercial use ever legally existed here, there may be a **legal nonconforming use** or
+grandfathered right attached to the land — which can permit things current zoning would not.
+That is potentially worth a great deal and it is **invisible unless you ask.**
+
+Follow it with:
+- "Has the city ever been out here for anything? Any code violations or complaints?"
+- "Did anyone ever pull permits for anything?"
+- "Were any of the buildings ever rented out?" *(rental history is evidence of dwelling-unit
+  status — which goes straight to your building rights question)*
+
+---
+
+## 14. The neighbors are a regulatory factor
+
+If commercial use turns out to need a **conditional use approval**, that means a public hearing —
+**and public hearings are where neighbors show up.** A single motivated objector can cost you
+months or kill it.
+
+So today:
+- **Who's next door, on both sides and behind?** Look at the properties
+- Residential or commercial neighbors?
+- Ask her: "What are the neighbors like? Does anyone around here mind what happens on the
+  street?"
+- Any signs of existing commercial activity nearby? **Neighboring commercial use is helpful
+  precedent**
+- How close is the nearest house to where a cart and seating would go?
+
+Noise, hours, parking spillover, and traffic are what neighbors object to. A quiet garden with a
+coffee cart is about the most defensible commercial use imaginable — but you want to know the
+terrain before you need it.
+
+---
+
+## 15. The other dimensions, briefly
+
+Things that branch out and are worth holding in mind:
+
+- **Insurance.** The jump from private residence to "public on the premises" is a real premium
+  increase, and it's the cost most likely to surprise you. Trip hazards, uneven garden paths,
+  children, wildlife
+- **Hours and noise ordinances.** Marathon will have them. They set when you could ever open
+- **Signage rules.** What you're allowed to put on 74th Street is regulated, and signage is how
+  people find you
+- **Water service size.** A commercial use may need a larger meter than a house
+- **Electric capacity.** Espresso equipment draws hard. Note the panel size
+- **Sales tax registration.** Anything you sell is taxable
+- **Fire access.** If the public comes, fire apparatus access and hydrant distance can apply
+- **ADA.** Public accommodation means an accessible route and accessible restroom if you have
+  restrooms at all
+
+**None of these are reasons not to do it.** They're the reason to design the site now so that
+rungs 3–5 remain *possible* — leave room for parking, leave a path that could be made
+accessible, know where a restroom could go, and don't plant a specimen tree where a driveway
+will need to be.
+
+---
+
+## 16. What to actually say today
+
+She asked you nothing about coffee carts. **Don't volunteer a business plan.** But if the
+conversation turns to what you'd do with it:
+
+> *"Long term we'd love for people to be able to come see the garden — maybe something simple
+> like coffee one day. But that's years out. Right now it's about living here and getting the
+> garden going."*
+
+True, modest, and it plants the idea without making her feel like she's selling to a developer.
+
+**The goal for today isn't answers. It's leaving with the three or four site facts — sewer vs
+septic, zoning, neighbors, commercial history — that tell you which rungs of that ladder are
+even available to you.**
+
+---
+
 ## One line to carry in
 
 **You're not buying a lot. You're asking her to hand something she loves to someone who'll love
