@@ -211,3 +211,82 @@ exposure, buildings that may or may not be salvageable, and **no operator** — 
 3. **The tenant's current rent**
 
 Get those three before anyone writes anything up.
+
+---
+
+## 8. 🔵 DECISION: no flood insurance at the outset
+
+**Owner's decision, made with the math in hand.** This section is about executing it well
+rather than relitigating it.
+
+### 🔴 The thing that actually makes this dangerous — and it isn't the weather
+
+> ## If the note requires insurance and you don't carry it, you are in default — flood or no flood.
+>
+> That's a breach of covenant. He could accelerate or foreclose **on that alone, with clear
+> skies**, and it is a far more likely way to lose this property in year one than a storm is.
+
+**Non-negotiable:** the note and mortgage must **explicitly** say no flood insurance is
+required, or carry a written waiver. Not a verbal understanding, not "he said it's fine." Your
+attorney drafts it. **If he won't waive it in writing, you carry the policy** — being quietly
+out of covenant is the worst of both worlds.
+
+### ⚠️ Flood, wind, and liability are three different things
+Make sure you're dropping only the one you mean to:
+
+| Coverage | What it does | Should you drop it? |
+|---|---|---|
+| **Flood** (NFIP/private) | Rising water, storm surge | **Your decision — dropping** |
+| **Wind / hurricane** | Wind damage, roof loss | **No.** Far more frequent than flood here, and a note will almost certainly require it |
+| **Liability / hazard** | Someone hurt on the property | **No.** Especially with a tenant and eventually visitors |
+
+Dropping flood is one decision. **Keep the other two.** In Florida windstorm is often a separate
+policy or written through Citizens — confirm what you actually have.
+
+### ⏰ You can't buy it when a storm is coming
+**NFIP has a 30-day waiting period.** "I'll get it if the season looks bad" does not work — by
+the time a storm is named it's far too late.
+
+**The one exception: the waiting period is waived when a policy is bought in connection with a
+loan closing.** So **closing is the single cheapest moment to start coverage** if you ever
+change your mind. Worth knowing before you pass on it.
+
+### 💡 Close after hurricane season — free risk reduction
+**Hurricane season is June 1 – November 30.** Closing in **December** hands you roughly six
+months of exposure-free ownership to clean up, plant, and get established before you're
+carrying real risk uninsured.
+
+That costs nothing and it's pure downside reduction. **Target a post-season closing.**
+
+### ⚖️ This changes the price-for-terms trade
+Earlier the recommendation was to trade a **higher total price** for a **lower down payment.**
+Uninsured, that logic weakens:
+
+> **Your entire exposure is the size of the note.** A bigger note means a bigger hole if the
+> building is destroyed.
+>
+> So uninsured, **keep the note as small as you can** — which argues for negotiating the price
+> *down*, not accepting a higher price for easier terms.
+
+Pick one strategy and be consistent: **cheap insurance plus a bigger note**, or **no insurance
+plus the smallest note possible.** Mixing them gives you the worst of each.
+
+### ✅ What makes the decision hold up
+- **Don't put money into the structure.** This was already the plan; it's now load-bearing. Every
+  dollar in the building is a dollar uninsured
+- **Furnish cheap and replaceable.** Second-hand, nothing precious, nothing irreplaceable
+- **Store anything valuable above ~4 feet**, or somewhere movable — tools, equipment, potted
+  specimens
+- **Keep the irreplaceable things off the property entirely**
+- **Build the cash reserve instead of paying premiums.** The ~$2,470/yr you're not spending
+  should go into a dedicated storm fund, not general cash flow. **Self-insuring only works if
+  you actually self-insure**
+- **Invest in natives** — the garden is your real asset and natives survive salt. See §2
+
+### 🔁 Revisit the decision when
+- You invest real money in a structure
+- The note grows, or you take on additional debt
+- You build anything new
+- A tenant's livelihood depends on the building
+- You've built meaningful equity worth protecting
+- **Any time you'd struggle to walk away from a total loss**
