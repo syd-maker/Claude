@@ -154,6 +154,116 @@ property, and neither is worth mentioning to her today.
 
 ---
 
+## 8. The best source of site information is standing next to you
+
+She has lived there for years. **She is a multi-year dataset on this property and she is free.**
+Ask her, and she'll tell you things no survey ever will:
+
+- **"Where do you see the most birds and butterflies?"** ← ask this one first
+- "Which parts of the yard get brutal afternoon sun?"
+- "Where does water stand after a big rain?"
+- "What have you planted that thrived? What died?"
+- "Where's the breeze? Where's it still and buggy?"
+- "What's the loudest corner? Any noise from the road?"
+- "Has anything ever flooded, and how high?"
+
+That first question does double duty. It's **genuinely the most valuable garden data you can
+get** — wherever butterflies already congregate is where something is already working, and that
+spot becomes the heart of your garden. And it makes her the expert being consulted about her own
+land, which tells her exactly what kind of owner you'll be. Ask it, then shut up and take notes.
+
+**Your line to her, when it comes up:**
+
+> *"My goal is to optimize the garden so birds and butterflies come. I want to work out what's
+> already working here and build around it."*
+
+That is the right thing to say and it's true.
+
+---
+
+## 9. What you can only learn by being there
+
+These determine both the garden **and** where the houses go. Capture them today so you don't
+have to come back.
+
+### Sun — the single most important observation
+Butterflies need direct sun; a fully shaded garden won't have them.
+
+- **Open your phone's compass.** Note which way is south, and photograph the compass so you can
+  reconstruct it later
+- Which areas get **full sun** for most of the day? Those are your nectar clearings — the heart
+  of the whole thing
+- What's already shaded, and by what?
+- **Note the time of day you visit**, so you know what the shadows mean
+
+> **Design rule this drives: put the houses on the NORTH edge of the property, garden to the
+> south.** In our hemisphere shadows fall north, so buildings on the north throw their shade
+> away from the garden instead of across it. Get this backwards and you shade the exact ground
+> your butterflies need.
+
+### Wind
+Butterflies won't fly in strong wind, and the Keys are windy.
+
+- Which direction is the prevailing breeze coming from? (Often east/southeast here)
+- Where is it sheltered already? Where is it exposed?
+- **This sets where the windbreak hedge goes**, and it's also how you orient the houses for
+  cross-breeze
+
+### Water and grade
+- Where does water collect? Walk it mentally after rain, or ask her
+- Subtle high and low spots — a natural low spot is a **free water feature location**, which is
+  the thing that brings birds to bathe and butterflies to puddle
+- Anywhere that stays wet is somewhere you can't build
+
+### 🔴 Septic — ask this today
+**Is it on central sewer or septic?** If septic:
+- **Where is the drainfield?** You cannot build on it, plant trees over it, or park on it
+- A drainfield can consume a large piece of your usable garden and it's invisible until someone
+  tells you
+
+This single answer can reshape the entire layout. Don't leave without it.
+
+### What's already growing
+- **Which mature trees are natives worth keeping?** Gumbo limbo, seagrape, mahogany, thatch
+  palm, pigeon plum. Anything established is worth years you cannot buy
+- Which are invasives to remove? Brazilian pepper, Australian pine, lead tree
+- What's thriving without anyone helping it? That's your plant palette — it's already proven
+  on this soil
+
+### Noise and sightlines
+- What do you hear from each corner? Road noise from 74th, neighbors, AC units
+- The quietest corner is where the residence and the sitting areas go
+- What do you *see* that needs screening? What's worth framing a view toward?
+
+### Buildable reality
+- Where does the driveway come in, and how much garden does parking consume?
+- Any existing slabs or foundations reusable?
+- How far apart are the two homes going to be, realistically? Pace it off
+- Where would a crane need to sit to set a modular home? (Access matters more than people expect)
+
+### The test that beats all of these
+**Walk the property and notice where you naturally want to stop and stand.** Every good garden
+has a heart, and it's usually a spot the site chooses, not the designer. Find where you want to
+sit. That's where the garden begins, and you build outward from it.
+
+---
+
+## 10. Capture list — so you never have to go back
+
+- [ ] **Video walkthrough**, narrating what you see as you go
+- [ ] Photos from **every corner looking inward**, plus the center looking out in four directions
+- [ ] **Photograph the compass** so you can reconstruct orientation
+- [ ] **Note the date and time of day**
+- [ ] Photograph **every mature tree**, and the electric meters, panel, and any posted permits
+- [ ] Photograph **inside every structure** — all rooms, kitchens, bathrooms, meter bases
+- [ ] Any septic lids, cleanouts, or well heads you can spot
+- [ ] Drop a pin; pace off rough distances between structures and lot lines
+- [ ] **Shoot the "before" photos deliberately, from spots you can stand in again** — in three
+      years these are the most valuable marketing you'll ever have, and today is the only day
+      you can take them
+
+---
+
 ## One line to carry in
 
 **You're not buying a lot. You're asking her to hand something she loves to someone who'll love
