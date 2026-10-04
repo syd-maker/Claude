@@ -5,6 +5,7 @@ on 74th Street, Marathon, FL.
 
 | Document | Purpose |
 |---|---|
+| [`meeting-brief.md`](meeting-brief.md) | **🔴 START HERE** — the vision, what to ask the owners, what not to say |
 | [`business-plan.md`](business-plan.md) | The plan — concept, regulatory reality, revenue model, market, phasing, risks |
 | [`due-diligence.md`](due-diligence.md) | Ordered verification checklist; Tier 1 items are deal-breakers |
 | [`financial-model.md`](financial-model.md) | Unit economics and the inputs still needed |
