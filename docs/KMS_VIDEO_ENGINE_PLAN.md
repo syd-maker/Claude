@@ -7,7 +7,7 @@
 > - **3 skills plus profiles.** The orchestrator, separate hook-lab and beat-map, the full manifest, gate metrics and Frame.io are deferred or cut.
 > - **Feedback stays on Loom.**
 > - **Safe zone is y 285–1635**, bottom 250px clear, checked against a rendered overlay.
-> - **Exclusivity window** is a config value Syd sets.
+> - **Exclusivity window** is a config value Syd sets (`exclusivity_days`, default 90). Syd confirmed: open library plus market exclusivity; the first job is a GRS slot reel; the gates are selects + music, then the final. Execution prompt: `MASTER_PROMPT.md`.
 
 **Goal:** replace the human short-form editing pipeline (brief → rough cut → feedback → polish → delivery) with a layered, autonomous skill stack. It plugs into Beacon Engine and pulls from the Keys Collection Library on each client's behalf, while respecting gated zones.
 **Status:** plan v1, 2026-10-17. It is grounded in about 80 Asana threads, 8 Loom transcripts, the Jul 14 and Sep 29 team meetings, SSS‑QC, the Efficiency Register, and the Notion skills `rough-cut` v1, `color-grade` and `beacon-engine` (Steal Loop).
