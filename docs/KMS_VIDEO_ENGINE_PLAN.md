@@ -1,5 +1,14 @@
 # KMS Video Engine: Plan
 
+> **v2 (2026-10-17, after the pressure test):** see `PRESSURE_TEST.md`, which overrides this document wherever they conflict. The changes:
+> - **Format-family agents.** Reel, trial, ad, property and longform agents, each driven by per-format profiles (PRESSURE_TEST §7).
+> - **The 07 slot map plus 06 offers drive the brief.**
+> - **P0 is a single real GRS reel run end to end in week 1**, with `RUNS.log` and a Monday check by Lindsey.
+> - **3 skills plus profiles.** The orchestrator, separate hook-lab and beat-map, the full manifest, gate metrics and Frame.io are deferred or cut.
+> - **Feedback stays on Loom.**
+> - **Safe zone is y 285–1635**, bottom 250px clear, checked against a rendered overlay.
+> - **Exclusivity window** is a config value Syd sets.
+
 **Goal:** replace the human short-form editing pipeline (brief → rough cut → feedback → polish → delivery) with a layered, autonomous skill stack. It plugs into Beacon Engine and pulls from the Keys Collection Library on each client's behalf, while respecting gated zones.
 **Status:** plan v1, 2026-10-17. It is grounded in about 80 Asana threads, 8 Loom transcripts, the Jul 14 and Sep 29 team meetings, SSS‑QC, the Efficiency Register, and the Notion skills `rough-cut` v1, `color-grade` and `beacon-engine` (Steal Loop).
 
