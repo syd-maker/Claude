@@ -70,7 +70,7 @@ shot_type, motion, lens, time_of_day, location, quality (shake pct, exposure), t
 
 **Building the index.** This is an extension of `sort-footage`: frame sampling, Claude vision tags, kids/people detection, and a shake/exposure score from `shake.py`. It runs once over the library, then on every closeout harvest. As part of this, the GRASSY FLATS folder (317 files mixing resort, Lagoon and cable-park footage) gets split into sub-zones.
 
-**⚠ One decision needed from you.** Your sources disagree:
+**Decided (§10.1): open library plus a 90-day exclusivity window within the same market.** These were the conflicting sources:
 - (a) "All KMS clients get to pull from the Keys library."
 - (b) Sales copy: "no other realtors have access unless client grants it."
 - (c) A note: "shouldn't use same content for multiple clients."
@@ -176,10 +176,24 @@ Ship order for clients: **GRS reels first.** They have the richest rulebook, a d
 
 ---
 
-## 10. Open questions
+## 10. Decisions (locked 2026-10-17; Syd can overturn any of them)
 
-1. **Library sharing rule:** open, exclusivity window, or grant-only? (§3)
-2. **Feedback channel:** standardize on Frame.io (comments carry timecodes and survive) or keep Loom plus transcription? Frame.io notes were lost when an editor's account left.
-3. **Editors' role after launch:** do Kavya and Teknikoz become reviewers or finishers of engine output, or are they phased out?
-4. **Safe zone:** 484px or 540px? Both appear in the docs.
-5. **Mac access:** do I run on your Mac via Claude Code locally (needed for P0 and P3), or should the library be mirrored somewhere a cloud session can reach?
+1. **Library sharing: open, with exclusivity windows.**
+   - `open` clips are available to every KMS client. The ledger blocks the same clip for a second client in the same market (same town or key) for **90 days** after it's published.
+   - `zone:` clips are grant-only. Grants are recorded in `library/grants.csv` (client, zone, granted_by, date).
+   - `client:` clips never leave their owner.
+   - Why: this keeps the "all KMS clients pull from the Keys library" value, honours the sales promise ("no other realtors… unless client grants it") for anything identifiable, and turns "don't reuse across clients" into a check the system can run.
+2. **Feedback channel: Frame.io on a studio-owned account for notes on a cut. Loom stays for direction.**
+   - Frame.io comments carry frame-accurate timecodes and parse straight into EDL patches.
+   - All projects live under a KMS-owned account, so notes never disappear with an editor's login again. Editors are invited as guests.
+   - Looms stay for big-picture notes. feedback-loop ingests their transcripts from the Calls & Transcripts DB and maps them to timecodes against the draft's transcript.
+3. **Editors: shadow, then finish, then exception-only.**
+   - P4–P5, shadow: the engine cuts in parallel with Kavya and Teknikoz on the same jobs. Their finals become the scoring targets in the replay harness.
+   - After that, finish: editors finish engine rough cuts (colour, fine trims, anything the polisher flags [H]) instead of cutting from raw footage.
+   - Once a format's gates graduate (§7), exception-only: editors handle only what the engine flags. Teknikoz keeps long-form and podcasts until the long-form phase.
+4. **Safe zone: 540px.** It is the larger, safer margin, and it's the one used in real Asana feedback. The polisher checks against 540. The 484 reference gets corrected in the Resource Center.
+5. **Where it runs:**
+   - **Your Mac, through local Claude Code**, for everything that touches footage, Resolve or the scripts (P0, P3, P4, plus delivery).
+   - **This repo** is the source of truth, synced to `~/.claude/skills/` by `scripts/sync-skills.sh`.
+   - **Cloud sessions** handle knowledge extraction (P1), polisher rule authoring, and feedback parsing, all of which only need Notion, Asana and transcripts.
+   - The full library is not mirrored to the cloud, because of the size (the Dropbox 3TB limit was already hit). Only the manifest and ledger files get synced.
